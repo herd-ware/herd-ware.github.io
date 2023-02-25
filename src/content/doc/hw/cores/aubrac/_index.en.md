@@ -1,32 +1,30 @@
 ---
 archetype: "part"
-title: "Ossau core"
-menuTitle: "Ossau"
+title: "Aubrac core"
+menuTitle: "Aubrac"
 weight: 1
 ---
 
 {{% notice style="tip" %}}
-*Ossau* is the name of a [Pyrenees valley](http://www.travel-ossau-pyrenees.com/) in the south west of France. It gives its name to the *Pic du midi d'Ossau*, a Pyrenees peak.
-
-<img src="/img/ossau.jpg" alt="Ossau peak" style="width: 400px;">
+*Aubrac* is a french breed of cows from the [Plateau de l'Aubrac](https://www.parc-naturel-aubrac.fr/) in central southern France.
 {{% /notice %}}
 
-This page and the following ones describe the Ossau core.
+This page and the following ones describe the Aubrac core.
 It is single issue in-order CPU build around a classic pipeline and two levels of cache memories.
 Based on the RISC-V ISA, it is developed in Chisel3 and has a lot of different parameters (the data size, the number of stages, the supported extensions *etc*).
 
 #### Overview
 
-![Overview of the Ossau core.](/fig/ossau-top.png)
+![Overview of the Aubrac core.](/fig/aubrac-top.png)
 
 {{< caption 
   type="Figure" 
   x="1"
-  main="Overview of the the Ossau core."
+  main="Overview of the the Aubrac core."
   sub="All the possible stages are represented, even if some of them are optional."
 >}}
 
-The Figure 1 represents the whole Ossau core.
+The Figure 1 represents the whole Aubrac core.
 It is composed of 8 parts.<br/>
 The **Front-End** is responsible of the instruction fetch.
 The **NLP** is used to predict control-flow changes.
@@ -39,7 +37,7 @@ The **I/O** module is used for core's specific memory addressable mechanism (*e.
 
 #### ISA support
 
-The Ossau core is based on the RISC-V ISA.
+The Aubrac core is based on the RISC-V ISA.
 It currently supports both 32 and 64 bits bases.
 
 | Extension       |  Version  |   Implemented ?    |      Tested ?      |     Optional ?     | Depends on ... |
@@ -54,11 +52,11 @@ It currently supports both 32 and 64 bits bases.
 {{< caption 
   type="Table" 
   x="1"
-  main="Summary of the different supported RISC-V extensions by the Ossau core."
+  main="Summary of the different supported RISC-V extensions by the Aubrac core."
   sub="Some still have to be tested more in depth."
 >}}
 
-As described on the Table 1, multiple extensions are currently implemented in the Ossau.
+As described on the Table 1, multiple extensions are currently implemented in the Aubrac.
 Most of them are optional: the dedicated hardware parts are completely removed during Verilog generation.
 
 {{% notice style="warning" %}}

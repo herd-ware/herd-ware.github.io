@@ -6,7 +6,7 @@ draft: true
 weight: 3
 ---
 {{% notice style="warning" %}}
-Before trying to simulate any design, make sure that you installed the different needed tools as explained in [the installation page](/isard/install).
+Before trying to simulate any design, make sure that you installed the different needed tools as explained in [the installation page](/all/install).
 Particularly, the following tools will be used here:
 - sbt,
 - Verilator,
@@ -16,29 +16,29 @@ Particularly, the following tools will be used here:
 
 ### First simulation
 
-To start a simulation, open a terminal and go to the ISARD project directory previously installed.
+To start a simulation, open a terminal and go to the HerdWare directory previously installed.
 ```bash
-  cd isard
+  cd herd-ware
 ```
 
 A *Makefile* is available in the root project directory.
 Multiple commands are defined, especially the ones to build and simulate a design.
-In this example, we focus on the simulation of the [Bearn platform](/doc/hw/pltf/bearn).
-The design configuration is indicated in the *Makefile* using the *BEARN_CONFIG* variable.
+In this example, we focus on the simulation of the [Cheese platform](/doc/hw/pltf/cheese).
+The design configuration is indicated in the *Makefile* using the *CHEESE_CONFIG* variable.
 
 ```bash
-  make bearn-build BEARN_CONFIG=P32O1V000
+  make cheese-build CHEESE_CONFIG=H32_AU1V000
 ```
 
-This command build the Bearn platform with the P32O1V000 config.
+This command build the Cheese platform with the H32_AU1V000 config.
 *sim/* is created with different subfolders.
 During the command execution, multiple tests are also executed.
 Finally, the simulation executable is available in the *sim/exe/* directory.
-In our case, it is named *VSimIBP32O1V000*.
+In our case, it is named *H32_AU1V000*.
 
 Finally, to launch an execution generating waveforms:
 ```bash
-./sim/exe/VSimIBP32O1V000 --boot BOOT_HEX_FILE --trigger N_TRIGGER --vcd VCD_FILE
+./sim/exe/HERD_H32_CHAU1V000 --boot BOOT_HEX_FILE --trigger N_TRIGGER --vcd VCD_FILE
 ```
 with BOOT_HEX_FILE the boot memory content in an hexadecimal file, N_TRIGGER the maximum number of execution cycle and VCD_FILE the *.vcd* file with the generated waveform.
 A complete example can be peformed using a program in the [isa-tests](/doc/sw/isa-tests) directory:
@@ -47,17 +47,17 @@ A complete example can be peformed using a program in the [isa-tests](/doc/sw/is
 cd sw/isa-tests
 make -f Makefile.riscv all
 cd ../..
-./sim/exe/VSimIBP32O1V000 --boot sw/isa-tests/hex/riscv32-base-i-add-rom.hex --trigger 1000 --vcd sim/vcd/IBP32O1V000/example.vcd
+./sim/exe/HERD_H32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add-rom.hex --trigger 1000 --vcd sim/vcd/HERD_H32_CHAU1V000/example.vcd
 ```
 
 Then, the execution of the *add* test of *isa-tests* can be viewed using GTKWave:
 
 ```bash
-gtkwave sim/vcd/IBP32O1V000/example.vcd
+gtkwave sim/vcd/HERD_H32_CHAU1V000/example.vcd
 ```
 
 {{% notice style="note" %}}
-More informations about the build process and the possibility to build specific hardware modules are available on the [dedicated page](/isard/custom#generate-a-precise-hardware-module).
+More informations about the build process and the possibility to build specific hardware modules are available on the [dedicated page](/all/custom#generate-a-precise-hardware-module).
 {{% /notice %}}
 
 ### Executable options
@@ -82,7 +82,7 @@ More informations about the build process and the possibility to build specific 
 Each generated executable has several options.
 They are summarized in the Table 1.
 They are implemented using C++.
-In the case of the [Bearn platform](/doc/hw/pltf/bearn), you can find this top file in the [corresponding folder](https://github.com/isard-prj/main/hw/pltf/bearn/sim/top.cpp).
+In the case of the [Cheese platform](/doc/hw/pltf/cheese), you can find this top file in the [corresponding folder](https://github.com/herd-ware/hw-pltf-cheese/sim/top.cpp).
 
 ### Examples
 
@@ -93,3 +93,4 @@ Here are described some use cases.
 #### Simple simulation
 
 #### Custom design simulation
+

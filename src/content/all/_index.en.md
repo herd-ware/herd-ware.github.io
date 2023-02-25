@@ -1,6 +1,6 @@
 ---
 archetype: "part"
-title: "ISARD Project"
+title: "HerdWare"
 weight: 1
 ---
 
