@@ -1,0 +1,37 @@
+<!--
+File: bib.html
+Created Date: 2023-02-25 02:49:30 pm
+Author: Mathieu Escouteloup
+-----
+Last Modified: 2023-02-25 02:50:15 pm
+Modified By: Mathieu Escouteloup
+-----
+License: See LICENSE.md
+Copyright (c) 2023 HerdWare
+-----
+Description: 
+-->
+
+
+<div id="{{ .Get "key" }}">
+  <div class="bib-key" style="font-weight: bold">[{{ .Get "key" }}]:</div>
+  <div class="bib-title" style="font-style: italic">
+    {{ .Get "title" }}
+    {{ if or (.Get "subtitle") }}
+      , {{ .Get "subtitle" }}
+    {{ end }}
+  </div>
+  <div class="bib-author" style="display:block">{{ .Get "author" }}</div>
+  {{ if or (.Get "date") }}
+    {{ .Get "date" }}<br/>
+  {{ end }}
+  {{ if or (.Get "link") }}
+    <a href="{{ .Get "link" }}" style="white-space: pre-line;">Available link</a>
+  {{ end }}
+</div>
+
+<details>
+  <summary class="bib-resume" style="text-decoration: underline; display:inline-block">Resume:</summary>
+  {{ .Get "resume" }}
+</details>
+<br/>

@@ -1,0 +1,31 @@
+<!--
+File: fig.html
+Created Date: 2023-02-18 02:23:51 pm
+Author: Mathieu Escouteloup
+-----
+Last Modified: 2023-02-25 02:50:20 pm
+Modified By: Mathieu Escouteloup
+-----
+License: See LICENSE.md
+Copyright (c) 2023 HerdWare
+-----
+Description: 
+-->
+
+
+<figure>
+  <img 
+    src="{{ .Get "fig" }}"
+    alt="{{ .Get "alt" }}"
+    style="width: {{ .Get "width" }}"
+  >
+
+  <div class="caption" style="text-align: center;">  
+    <span class="caption-main" style="font-weight: bold;">
+      Figure {{ .Get "x" }}: {{ .Get "caption" }}
+    </span>
+    <span class="caption-main" style="">  
+      {{ .Get "subcaption" }}
+    </span>
+  </div>
+</figure>

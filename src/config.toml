@@ -1,0 +1,49 @@
+baseURL = 'https://herd-ware.github.io'
+languageCode = 'en-us'
+theme = "relearn"
+publishDir = "../docs"
+
+[params]
+  themeVariant = [ "color-light", "color-dark" ]
+  alwaysopen = false
+  collapsibleMenu = true
+
+defaultContentLanguage = "en"
+[Languages]
+[Languages.en]
+title = "HerdWare"
+weight = 1
+languageName = "English"
+[Languages.fr]
+title = "HerdWare"
+weight = 2
+languageName = "Français"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+url = "https://github.com/herd-ware"
+weight = 1
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-user'></i> Contributors"
+url = "more/contrib/"
+weight = 2
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-school'></i> Research"
+url = "more/research/"
+weight = 3
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book'></i> Publications"
+url = "more/publi/"
+weight = 4
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+url = "https://github.com/herd-ware"
+weight = 1
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
