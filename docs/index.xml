@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HerdWare</title>
+    <link>https://herd-ware.github.io/index.html</link>
+    <description>Recent content on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>References</title>
+      <link>https://herd-ware.github.io/refs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/refs/index.html</guid>
+      <description>Table of contents  Table of contents Digital system design and tools Instruction Set Architecture Microarchitecture &amp;amp; processor design  Digital system design and tools [Chisel]: Chisel/FIRRTL Hardware Compiler Framework   Available link   Resume: Here is the website of the Chisel3 language. Differents informations about the language or the FIRRTL compiler can be found.   [Verilator]: Verilator   Available link   Resume:   Instruction Set Architecture [Patt2017]: Computer organization and design: the hardware/software interface , RISC-V Edition  Patterson, David A and Hennessy, John L 2017   Resume:   [Wate2019]: The RISC-V Instruction Set Manual , Volume I: Unprivileged ISA  Waterman, Andrew and Asanovic, Krste December 2019 Available link   Resume: This is the official RISC-V specification.</description>
+    </item>
+    <item>
+      <title>Glossary</title>
+      <link>https://herd-ware.github.io/gls/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/gls/index.html</guid>
+      <description> BHT: Branch History Table  Definition:  BTB: Branch Target Buffer  Definition:  EDA: Electronic Design Automation  Definition:  ISA: Instruction Set Architecture  Definition:  NLP: Next Line Predictor  Definition:  RAS: Return Address Stack  Definition:  See also:  RSB  RSB: Return Stack Buffer  Definition:  See also:  RAS  </description>
+    </item>
+  </channel>
+</rss>
