@@ -5,8 +5,14 @@ menuTitle: "Aubrac"
 weight: 1
 ---
 
-{{% notice style="tip" %}}
-*Aubrac* is a french breed of cows from the [Plateau de l'Aubrac](https://www.parc-naturel-aubrac.fr/) in central southern France.
+{{% notice style="tip" title="Name origin" %}}
+<img src="/img/aubrac-haute.jpg" alt="Aubrac Haute" style="width: 400px; display: block; margin: 0 auto;">
+ 
+<div style="text-align: center; font-size: 10px;"> 
+  <a href="https://www.salon-agriculture.com/A-voir-sur-le-salon/La-vache-egerie/Les-anciennes-vaches-egeries/Decouvrez-Haute-l-egerie-de-l-edition-2018">Image's source.</a>
+</div>
+
+*Aubrac* is a french breed of cows from the [Plateau de l'Aubrac](https://www.parc-naturel-aubrac.fr/) in the south-central of France.
 {{% /notice %}}
 
 This page and the following ones describe the Aubrac core.
