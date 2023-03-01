@@ -20,3 +20,6 @@ weight: 5
       <td>ligne2 colonne4</td>
    </tr>
 </table> 
+
+
+{{% badge style="info" title="" %}}New{{% /badge %}}

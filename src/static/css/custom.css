@@ -1,0 +1,139 @@
+/*
+ * File: custom.css
+ * Created Date: 2023-02-28 01:34:25 pm
+ * Author: Mathieu Escouteloup
+ * -----
+ * Last Modified: 2023-02-28 08:13:57 pm
+ * Modified By: Mathieu Escouteloup
+ * -----
+ * License: See LICENSE.md
+ * Copyright (c) 2023 ISARD
+ * -----
+ * Description: 
+ */
+
+
+/*  ******************************
+                GLOBAL
+    ******************************  */
+.link-button {
+  border: 1px solid;
+  color: #0095eb;
+  border-color: #0095eb;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/*  ******************************
+               BIOGRAPHY
+    ******************************  */
+ul {
+  list-style-position: outside;
+}
+
+li span {
+  position: relative;
+  box-sizing: border-box;
+  left: 0px;
+}
+
+li div {
+  position: relative;
+  box-sizing: border-box;
+  left: 0px;
+}
+
+.bio-li::before {
+  display: inline-block;
+  margin-right: 0px;
+/*  margin-left: -20px;
+  padding-right: 5px;
+  width: 30px;*/
+  
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.bio-li-int::before {
+  content: "\f2db ";
+}
+
+.bio-li-xp::before {
+  content: "\f0b1 ";
+}
+
+.bio-li-edu::before {
+  content: "\f19d ";
+}
+
+.bio-li-ref::before {
+  content: "\f02d ";
+}
+
+.bio-li-talk::before {
+  content: "\f130 ";
+}
+
+.bio-li-prj::before {
+  content: "\f005 ";
+}
+
+.bio-h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.bio-h2::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.bio-h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bio-row {
+  width: 100%;
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+.bio-col-left {
+  float: left;
+  width: 49%;
+}
+
+.bio-col-right {
+  float: right;
+  width: 49%;
+}
+
+.bio-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bio-ref {
+  font-size: 20px;
+  text-align: left;
+}
+
+.bio-ref-title {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-style: italic;
+}
+
+/*.bio-ref-author {
+
+}*/
+
+.bio-ref-info {
+  font-weight: bold;
+}

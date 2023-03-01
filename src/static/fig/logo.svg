@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="4.7572176"
+     inkscape:cx="302.59284"
+     inkscape:cy="525.20196"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="1992"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid152" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="250"
+       y="500"
+       width="70"
+       height="50"
+       id="rect258" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text256"
+       style="font-size:16px;line-height:1.25;font-family:'Gentium Book Basic';-inkscape-font-specification:'Gentium Book Basic';white-space:pre;shape-inside:url(#rect258);display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Gentium Book Basic';-inkscape-font-specification:'Gentium Book Basic';stroke-width:0.264583"
+       x="66.145836"
+       y="134.9375"
+       id="text236"
+       inkscape:export-filename="logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';stroke-width:0.264583"
+         x="66.145836"
+         y="134.9375">HerdWare</tspan></text>
+  </g>
+</svg>
