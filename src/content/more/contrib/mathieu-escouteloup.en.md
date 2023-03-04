@@ -31,7 +31,8 @@ weight: 1
 
 <h3 class="bio-h3">Interests</h3>
 <ul>
-  <li class="bio-li bio-li-int"> Processor design</li>
+  <li class="bio-li bio-li-int"> Processor architecture</li>
+  <li class="bio-li bio-li-int"> Digital design</li>
   <li class="bio-li bio-li-int"> Hardware security</li>
   <li class="bio-li bio-li-int"> Hardware/Software interface</li>
   <li class="bio-li bio-li-int"> Side-channel attacks</li>
