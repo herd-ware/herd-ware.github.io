@@ -12,7 +12,7 @@ weight: 1
   <a href="https://www.salon-agriculture.com/A-voir-sur-le-salon/La-vache-egerie/Les-anciennes-vaches-egeries/Decouvrez-Haute-l-egerie-de-l-edition-2018">Image's source.</a>
 </div>
 
-*Aubrac* is a french breed of cows from the [Plateau de l'Aubrac](https://www.parc-naturel-aubrac.fr/) in the south-central of France.
+*Aubrac* is a french breed of cows from the [Plateau de l'Aubrac](https://www.parc-naturel-aubrac.fr/) in the south-central of France. It is mainly raised for its meat, but also for its milk which can be used for the [Laguiole cheese](https://www.fromage-laguiole.fr/index_en.php).
 {{% /notice %}}
 
 This page and the following ones describe the Aubrac core.

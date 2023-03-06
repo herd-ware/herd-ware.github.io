@@ -3,7 +3,7 @@ File: bib.html
 Created Date: 2023-02-25 02:49:30 pm
 Author: Mathieu Escouteloup
 -----
-Last Modified: 2023-02-28 08:12:59 pm
+Last Modified: 2023-03-05 02:26:00 pm
 Modified By: Mathieu Escouteloup
 -----
 License: See LICENSE.md
@@ -22,16 +22,25 @@ Description:
     {{ end }}
   </div>
   <div class="bib-author" style="display:block">{{ .Get "author" }}</div>
-  {{ if or (.Get "date") }}
-    {{ .Get "date" }}<br/>
+  {{ if or (.Get "book") }}
+  <span class="bib-book" style="font-weight: bold">{{ .Get "book" }}</span>{{ if or (.Get "date") }}, {{ .Get "date" }}{{ end }}<br/>
+  {{ else }}
+    {{ if or (.Get "date") }}
+      {{ .Get "date" }}<br/>
+    {{ end }}
   {{ end }}
+  
   {{ if or (.Get "link") }}
-    <a class="link-button" href="{{ .Get "link" }}" >Link</a>
+    <a class="link-button" href="{{ .Get "link" }}" style="display:inline-block">Link</a>
   {{ end }}
+  <!--<details style="display:inline-block">
+    <summary class="link-button" style="display:inline-block">Notes</summary>    
+    {{ .Get "note" }}
+  </details>-->
 </div>
 
 <details>
-  <summary class="bib-resume" style="text-decoration: underline; display:inline-block">Resume:</summary>
-  {{ .Get "resume" }}
+  <summary class="bib-note" style="text-decoration: underline; display:inline-block">Notes:</summary>
+  {{ .Get "note" }}
 </details>
 <br/>

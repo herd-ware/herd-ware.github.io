@@ -12,5 +12,5 @@ weight: 1
   <a href="https://www.salon-agriculture.com/A-voir-sur-le-salon/La-vache-egerie/Les-anciennes-vaches-egeries/Decouvrez-Neige-l-egerie-de-l-edition-2022">Image's source.</a>
 </div>
 
-*Abondance* is a french breed of cows from the [Haute-Savoie](https://www.hautesavoie.fr/) in the south-east of France.
+*Abondance* is a french breed of cows from the [Haute-Savoie](https://www.hautesavoie.fr/) in the south-east of France. It is mainly raised for its milk used in multiple cheeses like the [Reblochon](https://www.reblochon.fr/en/), the [Abondance](https://www.fromageabondance.fr/en) and others.
 {{% /notice %}}
