@@ -1,5 +1,5 @@
 ---
 archetype: "part"
 title: "Documentation"
-weight: 3
+weight: 2
 ---
