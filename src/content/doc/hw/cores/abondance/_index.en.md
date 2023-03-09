@@ -14,3 +14,6 @@ weight: 1
 
 *Abondance* is a french breed of cows from the [Haute-Savoie](https://www.hautesavoie.fr/) in the south-east of France. It is mainly raised for its milk used in multiple cheeses like the [Reblochon](https://www.reblochon.fr/en/), the [Abondance](https://www.fromageabondance.fr/en) and others.
 {{% /notice %}}
+
+This page and the following ones describe the Abondance core.
+It is multiple issue out-of-order CPU with two levels of cache memories.

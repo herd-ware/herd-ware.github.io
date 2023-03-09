@@ -3,7 +3,7 @@
  * Created Date: 2023-02-18 04:48:35 pm
  * Author: Mathieu Escouteloup
  * -----
- * Last Modified: 2023-03-01 02:40:17 pm
+ * Last Modified: 2023-03-08 12:31:38 pm
  * Modified By: Mathieu Escouteloup
  * -----
  * License: See LICENSE.md
@@ -24,7 +24,7 @@
 }
 
 :root {
-    --PRIMARY-color: #4c6e48; /* brand primary color */
+    --PRIMARY-color: #4c8a46; /* brand primary color */
     --SECONDARY-color: #486ac9; /* brand secondary color */
     --ACCENT-color: #ff88ff; /* brand accent color, used for search highlights */
 
@@ -38,7 +38,7 @@
     --CODE-BLOCK-BG-color: #f8f8f8; /* fallback background color of block code; should be adjusted to your selected chroma style */
     --CODE-BLOCK-BORDER-color: #d8d8d8; /* border color of block code */
 
-    --CODE-INLINE-color: #4c6e48; /* text color of inline code */
+    --CODE-INLINE-color: #4c8a46; /* text color of inline code */
     --CODE-INLINE-BG-color: #fffae9; /* background color of inline code */
     --CODE-INLINE-BORDER-color: #f8e8c8; /* border color of inline code */
 
@@ -56,7 +56,7 @@
     --MENU-SECTIONS-ACTIVE-BG-color: rgba( 0, 0, 0, .166 ); /* background color of the active menu section */
     --MENU-SECTIONS-LINK-color: #bababa; /* link color of menu topics */
     --MENU-SECTIONS-LINK-HOVER-color: #ffffff; /* hovered link color of menu topics */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #4c6e48; /* text color of the displayed menu topic */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #4c8a46; /* text color of the displayed menu topic */
     --MENU-SECTION-HR-color: #606060; /* separator color of menu footer */
 
     --BOX-CAPTION-color: rgba( 255, 255, 255, 1 ); /* text color of colored box titles */
