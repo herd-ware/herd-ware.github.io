@@ -5,5 +5,5 @@ title: "HerdWare"
 
 {{% notice style="warning" %}}
 This site is a **Work in Progress**.
-More content coming soon
+More content coming soon.
 {{% /notice %}}

@@ -22,6 +22,12 @@ weight: 101
 >}}
 
 {{< gls 
+  acr="HDL" 
+  full="Hardware Description Language" 
+  definition="" 
+>}}
+
+{{< gls 
   acr="ISA" 
   full="Instruction Set Architecture" 
   definition="" 

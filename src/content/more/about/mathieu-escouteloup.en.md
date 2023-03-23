@@ -23,7 +23,7 @@ weight: 1
     <img src="/img/profil.jpg" alt="Elephant at sunset" width=200px style="border-radius: 50%;">
     <div class="bio-name">Mathieu Escouteloup</div>
     </br>
-    <a href="mailto:mathieu.escouteloup@gmail.com"><i class="fas fa-fw fa-envelope fa-2x"></i></a>    
+    <a href="mailto:mathieu.escouteloup@laas.fr"><i class="fas fa-fw fa-envelope fa-2x"></i></a>    
     <a href="https://www.linkedin.com/in/mathieu-escouteloup/"><i class="fab fa-fw fa-linkedin fa-2x"></i></a>   
     <a href="https://scholar.google.com/citations?user=kgsxRtsAAAAJ&hl=en"><i class="fab fa-fw fa-google fa-2x"></i></a>    
   </div>

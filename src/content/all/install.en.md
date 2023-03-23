@@ -2,7 +2,6 @@
 archetype: "page"
 title: "Installation"
 date: 2023-02-18T10:52:46+01:00
-draft: true
 weight: 2
 ---
 
@@ -18,6 +17,21 @@ weight: 2
 
 HerdWare uses multiple tools to build, simulate or implement the different designs and softwares.
 Most of them are completely free and open-source.
+
+| Tools            | Hardware           | Software           | Simulation         | FPGA               |
+|:-----------------|:-------------------|:-------------------|:-------------------|:-------------------|
+| sbt              | {{% icon check %}} | {{% icon check %}} | {{% icon check %}} | {{% icon check %}} |
+| Verilator        |                    |                    | {{% icon check %}} |                    |
+| GtkWave          |                    |                    | {{% icon check %}} |                    |
+| Vivado           |                    |                    |                    | {{% icon check %}} |
+| RISC-V Toolchain |                    | {{% icon check %}} | {{% icon check %}} | {{% icon check %}} |
+
+{{< caption 
+  type="Table" 
+  x="1"
+  main="Summary of the different needed tools for each specific task."
+  sub=""
+>}}
 
 #### sbt
 
@@ -116,7 +130,7 @@ Currently, only RISC-V 32 bits base with M and A extensions (*-march=rv32ima*) a
 ## Local install
 
 Finally, once all the needed tools are installed, it is possible to play with HerdWare itself.
-To install it, simply follow the following commands:
+To install it, simply follow the commands:
 
 {{< tabs >}}
 {{% tab name="Ubuntu 20.04" %}}
@@ -134,9 +148,9 @@ Each main component (core, software, tool *etc.*) has its own project.
 However, due to dependencies, a main project is necesary to interconnect and build them.
 
 Finally, the main directory is organized as follows:
-- [build.sbt](https://github.com/herd-ware/root/build.sbt): configures the sbt tools by specifying libraries and hardware modules dependencies.
-- [fpga/](https://github.com/herd-ware/root/fpga): contains the specific files used during FPGA implementations. 
-- [hw/](https://github.com/herd-ware/root/hw): contains the different hardware designs.
-- [Makefile](https://github.com/herd-ware/root/Makefile): allows to launch the different builds and simulations.
-- sim/: contains the different generated informations during simulations. It is created by the Makefile. 
-- [sw/](https://github.com/herd-ware/root/sw): contains the different software designs.
+- [fpga/](https://github.com/herd-ware/root/tree/main/fpga): contains the specific files used during FPGA implementations. 
+- [hw/](https://github.com/herd-ware/root/tree/main/hw): contains the different hardware designs.
+- sim/: contains the different generated information during simulations. It is created by the Makefile. 
+- [sw/](https://github.com/herd-ware/root/tree/main/sw): contains the different software designs.
+- [build.sbt](https://github.com/herd-ware/root/blob/main/build.sbt): configures the sbt tools by specifying libraries and hardware modules dependencies.
+- [Makefile](https://github.com/herd-ware/root/blob/main/Makefile): allows to launch the different builds and simulations.
