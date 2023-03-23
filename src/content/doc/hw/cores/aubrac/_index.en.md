@@ -35,7 +35,7 @@ It is composed of 8 parts.<br/>
 The **Front-End** is responsible of the instruction fetch.
 The **NLP** is used to predict control-flow changes.
 The **Back-End** is responsible of the decoding and the execution of the instructions.
-The Dome Management Unit (**DMU**) is an execution unit dedicated to dome management ([CEPS ISA](/doc/isa/ceps)).
+The Hardware Field Unit (**HFU**) is an execution unit dedicated to field management ([CHAMP ISA](/doc/isa/champ)).
 The **I/O** module is used for core's specific memory addressable mechanism (*e.g.* privileged timers).
 **L1I**, **L1D** and **L2** are respectively the Level 1 Instruction, Level 1 Data and the Level 2 (Instruction and Data) private cache memories.
 
