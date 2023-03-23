@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/index.html</link>
+    <description>Recent content in Documentation on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instruction Set Architecture (ISA)</title>
+      <link>https://herd-ware.github.io/doc/isa/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/isa/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://herd-ware.github.io/doc/hw/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/index.html</guid>
+      <description> Common Memory Bus for Security (MB4S) Cores Abondance core Aubrac core Salers core I/Os GPIO UART SPI I2C PS/2 Timers Memories Hay cache memory Platforms Cheese platform  </description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://herd-ware.github.io/doc/sw/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/sw/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (1:1.2.2+202212051550+b0a8486541)"
+   sodipodi:docname="nlp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="6.0150392"
+     inkscape:cx="364.17053"
+     inkscape:cy="316.78929"
+     inkscape:window-width="1684"
+     inkscape:window-height="1376"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="RoundedArrow"
+       markerWidth="6.1347523"
+       markerHeight="5.9304948"
+       viewBox="0 0 6.1347524 5.9304951"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1367" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path33808" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-0-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-36"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1950"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path1948" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-53"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-0-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="RoundedArrow"
+       markerWidth="6.1347523"
+       markerHeight="5.9304953"
+       viewBox="0 0 6.1347524 5.9304951"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1367-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-62"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-4-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1-8-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-8-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-9-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-6-5-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-1-4-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-70" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-0-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-3-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-8-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5-5-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path33811-0-6-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2845"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2843" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2849"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2847" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect44847"
+       width="5.2916665"
+       height="2.6458333"
+       x="82.020836"
+       y="76.729164"
+       ry="0.26458332"
+       inkscape:export-filename="bht-top.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.636017"
+       y="78.565742"
+       id="text2895-8-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.636017"
+         y="78.565742"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#ff0000"
+   id="tspan94441">0</tspan>1</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect44847-4"
+       width="5.2916665"
+       height="2.6458333"
+       x="82.020836"
+       y="79.375"
+       ry="0.26458332"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.636017"
+       y="81.211578"
+       id="text2895-8-5-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-6"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.636017"
+         y="81.211578"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#0000ff"
+   id="tspan97361">1</tspan>1</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect44847-5"
+       width="5.2916665"
+       height="2.6458333"
+       x="82.020836"
+       y="82.020828"
+       ry="0.26458332"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.636017"
+       y="83.857407"
+       id="text2895-8-5-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-9"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.636017"
+         y="83.857407"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#ff0000"
+   id="tspan99561">0</tspan>0</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect44847-3"
+       width="5.2916665"
+       height="2.6458333"
+       x="82.020836"
+       y="84.666664"
+       ry="0.26458332"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.636017"
+       y="86.503242"
+       id="text2895-8-5-74"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.636017"
+         y="86.503242"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#ff0000"
+   id="tspan103361">0</tspan>0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.344353"
+       y="78.565742"
+       id="text2895-8-5-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-3"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="79.344353"
+         y="78.565742">000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.34436"
+       y="81.211578"
+       id="text2895-8-5-7-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-6-9"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="79.34436"
+         y="81.211578">001</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.344353"
+       y="83.857407"
+       id="text2895-8-5-6-0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-9-6"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="79.344353"
+         y="83.857407">010</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.34436"
+       y="86.503242"
+       id="text2895-8-5-74-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5-2"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="79.34436"
+         y="86.503242">011</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect63172"
+       width="14.552083"
+       height="2.6458333"
+       x="76.729164"
+       y="68.791664"
+       ry="2.5431316e-06"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.005547"
+       y="70.628242"
+       id="text2895-8-5-4-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-3-8"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.005547"
+         y="70.628242">0010 0000 0000 0</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect67689"
+       width="3.96875"
+       height="2.6458333"
+       x="91.281258"
+       y="68.791664"
+       ry="2.5431316e-06"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="93.234978"
+       y="70.628242"
+       id="text2895-8-5-4-4-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-3-8-1"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="93.234978"
+         y="70.628242">100</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="86.002327"
+       y="67.764091"
+       id="text34362-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="86.002327"
+         y="67.764091">Branch address</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198437;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-5)"
+       d="m 93.397917,71.4375 v 2.645833 h -14.02292 v 2.38125"
+       id="path73729"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect44847-3-7"
+       width="5.2916665"
+       height="2.6458333"
+       x="82.020836"
+       y="87.3125"
+       ry="0.26458332"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.636017"
+       y="89.149078"
+       id="text2895-8-5-74-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5-26"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.636017"
+         y="89.149078"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#0000ff"
+   id="tspan105819">1</tspan>0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.344353"
+       y="89.149078"
+       id="text2895-8-5-74-9-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5-2-06"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="79.344353"
+         y="89.149078">100</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect44847-3-6-1"
+       width="5.2916665"
+       height="2.6458333"
+       x="82.020836"
+       y="89.958328"
+       ry="0.26458332"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.636017"
+       y="91.794907"
+       id="text2895-8-5-74-6-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5-4-9"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.636017"
+         y="91.794907">..</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.344345"
+       y="91.794907"
+       id="text2895-8-5-74-9-5-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5-2-0-9"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="79.344345"
+         y="91.794907">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.635628"
+       y="75.910614"
+       id="text2895-5-1-9-1-4-0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-2-3-9-7-9"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="84.635628"
+         y="75.910614">Counter</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198437;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="M 87.312497,88.635416 88.9,88.635417"
+       id="path85669"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect85806"
+       width="5.2916694"
+       height="2.6458309"
+       x="89.958328"
+       y="87.3125"
+       ry="0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="92.575943"
+       y="89.101082"
+       id="text2895-8-5-6-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';stroke-width:0.264583"
+         x="92.575943"
+         y="89.101082"
+         id="tspan86249">MSB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="96.708916"
+       y="90.752083"
+       id="text2895-8-5-74-2-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-5-26-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';fill:#0000ff;stroke-width:0.264583"
+         x="96.708916"
+         y="90.752083">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="100.27708"
+       y="89.130714"
+       id="text2895-8-5-6-1-9-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';fill:#0000ff;stroke-width:0.264583"
+         x="100.27708"
+         y="89.130714"
+         id="tspan86249-7-7">Taken</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.25;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.79375, 0.79375;stroke-dashoffset:0"
+       id="rect164022-61"
+       width="21.166666"
+       height="13.229167"
+       x="72.892708"
+       y="109.93438"
+       ry="0"
+       inkscape:export-filename="bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:0.79375, 0.79375;stroke-dashoffset:0"
+       id="rect164022-6-8"
+       width="21.166666"
+       height="13.229167"
+       x="72.892708"
+       y="96.705208"
+       ry="1.0172526e-05"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-110.00892"
+       y="88.238548"
+       id="text2895-8-5-6-1-9-6-3-0-7-7"
+       transform="rotate(-90)"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="-110.00892"
+         y="88.238548"
+         id="tspan86249-7-7-9-8-8-9">Not-taken</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-109.9553"
+       y="92.471878"
+       id="text2895-8-5-6-1-9-6-3-0-7-5-2"
+       transform="rotate(-90)"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="-109.9553"
+         y="92.471878"
+         id="tspan86249-7-7-9-8-8-7-0">Taken</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path115691-2"
+       cx="76.861458"
+       cy="103.3198"
+       r="2.6458333"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="76.949303"
+       y="104.0183"
+       id="text2895-8-5-7-3-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-6-6-7"
+         style="font-size:2.11667px;stroke-width:0.264583"
+         x="76.949303"
+         y="104.0183"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#0000ff"
+   id="tspan97361-5-5">1</tspan>1</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path115691-8-9"
+       cx="90.090645"
+       cy="103.3198"
+       r="2.6458333"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="90.121338"
+       y="104.0183"
+       id="text2895-8-5-7-3-1-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-6-6-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="90.121338"
+         y="104.0183"><tspan
+           style="fill:#0000ff"
+           id="tspan3746">1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans'"
+           id="tspan3748">0</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 87.444802,102.52605 h -6.87916"
+       id="path124183-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 79.507302,104.11355 6.87918,1e-5"
+       id="path124185-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.575989"
+       y="101.73231"
+       id="text2895-8-5-6-1-9-6-3-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="83.575989"
+         y="101.73231"
+         id="tspan86249-7-7-9-6">Taken</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.522369"
+       y="105.96563"
+       id="text2895-8-5-6-1-9-6-3-0-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="83.522369"
+         y="105.96563"
+         id="tspan86249-7-7-9-8-2">Not-taken</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path115691-1-9"
+       cx="76.86145"
+       cy="116.54896"
+       r="2.6458333"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="76.87944"
+       y="117.24746"
+       id="text2895-8-5-7-3-5-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-6-6-9-1"
+         style="font-size:2.11667px;stroke-width:0.264583"
+         x="76.87944"
+         y="117.24746"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#ff0000"
+   id="tspan149371-9">0</tspan>0</tspan></text>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.198437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path115691-8-8-4"
+       cx="90.090645"
+       cy="116.54896"
+       r="2.6458333"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="90.147804"
+       y="117.24746"
+       id="text2895-8-5-7-3-1-1-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-5-6-6-2-0-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="90.147804"
+         y="117.24746"><tspan
+           style="fill:#ff0000"
+           id="tspan3752">0</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Work Sans';-inkscape-font-specification:'Work Sans'"
+           id="tspan145566-4">1</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 87.444802,115.75522 h -6.87916"
+       id="path124183-0-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 79.507302,117.34272 h 6.87918"
+       id="path124185-4-0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.522369"
+       y="114.69689"
+       id="text2895-8-5-6-1-9-6-3-4-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="83.522369"
+         y="114.69689"
+         id="tspan86249-7-7-9-4-6">Not-taken</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.455139"
+       y="118.93021"
+       id="text2895-8-5-6-1-9-6-3-0-4-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="83.455139"
+         y="118.93021"
+         id="tspan86249-7-7-9-8-7-0">Taken</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.460175"
+       y="121.81947"
+       id="text2895-8-5-6-1-9-6-3-8-6-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#ff0000;stroke-width:0.264583"
+         x="83.460175"
+         y="121.81947"
+         id="tspan132278-1-3">Not-taken</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.429008"
+       y="98.700005"
+       id="text2895-8-5-6-1-9-6-3-8-6-2-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#0000ff;stroke-width:0.264583"
+         x="83.429008"
+         y="98.700005"
+         id="tspan132278-1-1-0">Taken</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 89.296882,105.96563 1e-5,6.87917"
+       id="path175511-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 90.884382,113.90313 1e-5,-6.87916"
+       id="path175513-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/bht-fsm.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11667px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="157.42708"
+       y="89.164581"
+       id="text193846"><tspan
+         sodipodi:role="line"
+         id="tspan193844"
+         style="stroke-width:0.264583"
+         x="157.42708"
+         y="89.164581" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25098;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect870-9"
+       width="21.166666"
+       height="2.6458333"
+       x="29.104166"
+       y="84.666672"
+       ry="0"
+       inkscape:export-filename="rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.749996,84.666672 v 2.645833"
+       id="path1476-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.687497,84.666673 v 2.645833"
+       id="path1478-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.624997,84.666673 v 2.645833"
+       id="path1478-6-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.711861"
+       y="86.50325"
+       id="text2895-0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-93"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="35.711861"
+         y="86.50325">0x2004</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.656593"
+       y="86.50325"
+       id="text2895-7-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-5-0"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="43.656593"
+         y="86.50325">0x2100</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.414682"
+       y="86.503944"
+       id="text2895-5-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-26"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="30.414682"
+         y="86.503944">1</tspan></text>
+    <rect
+       style="fill:#cacaca;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect870-2-1"
+       width="21.166666"
+       height="2.6458333"
+       x="29.10417"
+       y="87.3125"
+       ry="0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31.749997,87.312507 V 89.95834"
+       id="path1476-9-8"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.687498,87.312508 v 2.645833"
+       id="path1478-1-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.624998,87.312508 v 2.645833"
+       id="path1478-6-2-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.711868"
+       y="89.149078"
+       id="text2895-70-20"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-9-2"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="35.711868"
+         y="89.149078">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.656601"
+       y="89.149078"
+       id="text2895-7-3-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-5-6-75"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="43.656601"
+         y="89.149078">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.41469"
+       y="89.149773"
+       id="text2895-5-0-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-6-2"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="30.41469"
+         y="89.149773">.</tspan></text>
+    <rect
+       style="fill:#cacaca;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect870-2-7-2"
+       width="21.166666"
+       height="2.6458333"
+       x="29.10417"
+       y="89.958328"
+       ry="7.6293945e-06"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.749996,89.958339 v 2.645833"
+       id="path1476-9-5-8"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.687497,89.95834 v 2.645833"
+       id="path1478-1-9-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.624997,89.95834 v 2.645833"
+       id="path1478-6-2-2-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.711868"
+       y="91.794907"
+       id="text2895-70-2-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-9-8-6"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="35.711868"
+         y="91.794907">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.656601"
+       y="92.324074"
+       id="text2895-7-3-9-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-5-6-7-2"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="43.656601"
+         y="92.324074">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.41469"
+       y="91.795601"
+       id="text2895-5-0-3-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-6-6-3"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="30.41469"
+         y="91.795601">.</tspan></text>
+    <rect
+       style="fill:#cacaca;fill-opacity:1;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect870-2-2-1"
+       width="21.166666"
+       height="2.6458333"
+       x="29.10417"
+       y="82.020836"
+       ry="0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.749996,82.020839 v 2.645833"
+       id="path1476-9-6-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.687497,82.02084 v 2.645833"
+       id="path1478-1-1-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.624997,82.02084 v 2.645833"
+       id="path1478-6-2-8-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.711868"
+       y="83.857414"
+       id="text2895-70-7-8"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-9-9-4"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="35.711868"
+         y="83.857414">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.656601"
+       y="83.857414"
+       id="text2895-7-3-2-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-5-6-0-0"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="43.656601"
+         y="83.857414">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:Work Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.41469"
+       y="83.858109"
+       id="text2895-5-0-2-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-6-3-6"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="30.41469"
+         y="83.858109">.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.427082"
+       y="81.163582"
+       id="text2895-5-1-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-2-0"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="30.427082"
+         y="81.163582">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.645664"
+       y="81.163582"
+       id="text2895-5-1-9-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-2-3-3"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="43.645664"
+         y="81.163582">Target</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.739208"
+       y="81.163582"
+       id="text2895-5-1-9-1-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-2-3-9-0"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="35.739208"
+         y="81.163582">Address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="48.89006"
+       y="81.163582"
+       id="text2895-5-1-9-1-4-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-6-2-3-9-7-1"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="48.89006"
+         y="81.163582">Extra</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 30.42708,76.729172 3e-6,1.322911"
+       id="path33682-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 35.718746,76.729172 4e-6,1.322911"
+       id="path33684-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow-2)"
+       d="m 43.65625,93.133333 3e-6,1.322911"
+       id="path33682-5-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow-2)"
+       d="m 48.947916,93.133333 4e-6,1.322911"
+       id="path33684-5-5"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="46.303493"
+       y="96.791283"
+       id="text34362-4-0-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="46.303493"
+         y="96.791283">Target address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="46.302086"
+       y="98.229202"
+       id="text2895-8-65-2-0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-6-2-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="46.302086"
+         y="98.229202">0x2100</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect177778-8-6"
+       width="7.9375052"
+       height="2.6458333"
+       x="25.135416"
+       y="117.73959"
+       ry="0"
+       inkscape:export-filename="rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.07383"
+       y="119.52818"
+       id="text2895-8-5-6-1-9-6-3-5-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="29.07383"
+         y="119.52818"
+         id="tspan86249-7-7-9-9-6">Return 0</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect177778-8-7-1"
+       width="7.9375052"
+       height="2.6458333"
+       x="25.135416"
+       y="115.09375"
+       ry="0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.099936"
+       y="116.87527"
+       id="text2895-8-5-6-1-9-6-3-5-5-8"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="29.099936"
+         y="116.87527"
+         id="tspan86249-7-7-9-9-3-7">Return 1</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.25;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect177778-8-8-9"
+       width="7.9375052"
+       height="2.6458333"
+       x="25.135416"
+       y="112.44791"
+       ry="2.2888184e-05"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.073826"
+       y="114.2365"
+       id="text2895-8-5-6-1-9-6-3-5-8-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="29.073826"
+         y="114.2365"
+         id="tspan86249-7-7-9-9-31-0">Return 2</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect177778-8-89-2"
+       width="7.9375052"
+       height="2.6458333"
+       x="25.135416"
+       y="109.80209"
+       ry="0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <rect
+       style="fill:#000000;fill-opacity:0.25098;stroke:#000000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect177778-8-89-3-3"
+       width="7.9375052"
+       height="2.6458333"
+       x="25.135416"
+       y="107.15625"
+       ry="0"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 21.166668,111.125 2.381249,0"
+       id="path189143-7"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 22.489588,105.83333 -5e-6,3.70417"
+       id="path192766-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 33.3375,113.77083 h 2.38125"
+       id="path189143-8-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 34.395838,105.83333 -5e-6,6.35"
+       id="path192766-7-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="34.373962"
+       y="105.63753"
+       id="text2895-8-5-6-1-9-6-3-5-8-3-8-7-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="34.373962"
+         y="105.63753"
+         id="tspan190881-0-6-1">Return ?</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 21.166668,113.77083 2.381249,0"
+       id="path189143-0-8"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;fill-opacity:0.25098;stroke:#ff0000;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:0.396875, 0.396875;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect202643-0"
+       width="7.9375"
+       height="2.6458333"
+       x="25.135416"
+       y="112.44792"
+       ry="0.26458332"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/rsb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="17.214144"
+       y="110.95884"
+       id="text34362-4-0-8-3"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="17.214144"
+         y="110.95884">Address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="17.155582"
+       y="112.25212"
+       id="text2895-8-65-2-4-1"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-6-2-0-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="17.155582"
+         y="112.25212">PC+4</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0264583;stroke-dasharray:none"
+       id="rect3491"
+       width="10.583333"
+       height="1.3229166"
+       x="68.791664"
+       y="60.854168" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0264583;stroke-dasharray:none"
+       id="rect3491-5"
+       width="10.583333"
+       height="1.3229166"
+       x="68.791664"
+       y="62.177082" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.081093"
+       y="61.869816"
+       id="text34362-4-0-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="74.081093"
+         y="61.869816">Jump address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.071335"
+       y="63.304203"
+       id="text2895-8-65-2-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-6-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="74.071335"
+         y="63.304203">0x2004</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0264583;stroke-dasharray:none"
+       id="rect3491-3"
+       width="10.583333"
+       height="1.3229166"
+       x="27.78125"
+       y="74.083336" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0264583;stroke-dasharray:none"
+       id="rect3491-5-7"
+       width="10.583333"
+       height="1.3229166"
+       x="27.78125"
+       y="75.40625" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="33.070679"
+       y="75.098984"
+       id="text34362-4-0-4-4"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-7-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="33.070679"
+         y="75.098984">Jump address</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="33.060921"
+       y="76.533371"
+       id="text2895-8-65-2-6-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-6-2-9-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="33.060921"
+         y="76.533371">0x2004</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0264583;stroke-dasharray:none"
+       id="rect3491-4"
+       width="10.583333"
+       height="1.3229166"
+       x="41.010418"
+       y="95.779167" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0264583;stroke-dasharray:none"
+       id="rect3491-5-74"
+       width="10.583333"
+       height="1.3229166"
+       x="41.010418"
+       y="97.102081" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="17.138649"
+       y="114.26895"
+       id="text34362-4-0-8-3-6-9"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-0-6-1-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';fill:#ff0000;stroke-width:0.264583"
+         x="17.138649"
+         y="114.26895">Pointer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="22.487465"
+       y="105.66998"
+       id="text34362-4-0-8-3-6-9-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-0-6-1-2-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';fill:#000000;stroke-width:0.264583"
+         x="22.487465"
+         y="105.66998">Call ?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="40.999832"
+       y="113.42336"
+       id="text34362-4-0-8-3-2"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan34360-7-4-0-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="40.999832"
+         y="113.42336">Target</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="40.98008"
+       y="114.89796"
+       id="text2895-8-65-2-4-1-6"
+       inkscape:export-filename="/home/escou64/Projects/manuscrit/fig/uarch/btb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"><tspan
+         sodipodi:role="line"
+         id="tspan2893-4-6-2-0-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';stroke-width:0.264583"
+         x="40.98008"
+         y="114.89796">Return 2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198437;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+       d="m 95.249997,88.635416 h 1.5875"
+       id="path4308" />
+  </g>
+</svg>

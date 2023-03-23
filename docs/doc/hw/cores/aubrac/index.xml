@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aubrac core on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/cores/aubrac/index.html</link>
+    <description>Recent content in Aubrac core on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front-end</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/front/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/front/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Next-line predictor (NLP)</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/nlp/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/nlp/index.html</guid>
+      <description>Overview  Figure 1: Overview of the NLP.  Each cycle, the Front-End requests the NLP to have informations about the next PC. If it corresponds to a known taken branch or jump, the NLP specute on the following PC.    Internal components Branch Target buffer (BTB)  Figure 1: Description of the BTB&amp;#39;s working.  When a jump or branch is detected, its informations are stored in the BTB.</description>
+    </item>
+    <item>
+      <title>Back-end</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory hierarchy</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Top</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheese platform on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/pltf/cheese/index.html</link>
+    <description>Recent content in Cheese platform on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/pltf/cheese/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top</title>
+      <link>https://herd-ware.github.io/doc/hw/pltf/cheese/top/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/pltf/cheese/top/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory mapping</title>
+      <link>https://herd-ware.github.io/doc/hw/pltf/cheese/mem/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/pltf/cheese/mem/index.html</guid>
+      <description>  Category Name Address   BOOT Start 0x00000000  End 0x03ffffff  ROM Start 0x04000000  End 0x07ffffff  RAM Start 0x08000000  End 0x0cffffff  Core I/Os Start 0x10000000  End 0x17ffffff  Platform I/Os Start 0x18000000  End 0x1fffffff   </description>
+    </item>
+  </channel>
+</rss>

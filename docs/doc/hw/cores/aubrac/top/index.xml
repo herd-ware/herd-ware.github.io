@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Top on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/index.html</link>
+    <description>Recent content in Top on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pipeline</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/pipeline/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/pipeline/index.html</guid>
+      <description>Overview   
+Figure 1: Overview of the the Aubrac pipeline.  All the possible stages are represented, even if some of them are optional.    </description>
+    </item>
+    <item>
+      <title>Core</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/core/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/core/index.html</guid>
+      <description>  
+Figure 1: Overview of the the Aubrac core.  All the possible stages are represented, even if some of them are optional.    </description>
+    </item>
+    <item>
+      <title>Parameters</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/params/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/params/index.html</guid>
+      <description>Description    Name Type Values Description     debug Boolean true / false Enable / disable the generation of signals and registers for debug during simulation.   pcBoot String &amp;ldquo;hhhhhhhh&amp;rdquo; Address of the first executed instruction.   nAddrBit Int 32 Address size.   nDataBit Int 32 / 64 Data size.   nFetchInstr Int 2^N Number of instructions simultaneously fetched.   useIMemSeq Boolean true / false Enable / disable sequential access to the instruction memory (e.</description>
+    </item>
+  </channel>
+</rss>

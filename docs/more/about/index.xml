@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on HerdWare</title>
+    <link>https://herd-ware.github.io/more/about/index.html</link>
+    <description>Recent content in About on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/more/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathieu Escouteloup</title>
+      <link>https://herd-ware.github.io/more/about/mathieu-escouteloup/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/more/about/mathieu-escouteloup/index.html</guid>
+      <description>Biography I am post-doctoral researcher in computer security at the LAAS-CNRS in Toulouse, France. I work with Vincent Migliore on the design of processors secure against side-channel attacks (power consumption and electromagnetic fields measurements).  Previously, I was graduated from the PHELMA - Grenoble INP engineering school in electronics and microelectronics. Then, during my PhD, I was working at Inria in the CIDRE Team advised by Ronan Lashermes.  Mathieu Escouteloup       Interests  Processor architecture Digital design Hardware security Hardware/Software interface Side-channel attacks  Professionnal experience  2021/11 - Now: Post-doctoral researcher LAAS-CNRS, Toulouse, France  2018/10 - 2021/09: PhD student Inria, Rennes, France  2015/09 - 2018/08: Apprentice engineer Dolphin Integration (now Dolphin Design), Meylan, France    Education  PhD in computer science, 2021 Ensuring microarchitectural isolation in processors.</description>
+    </item>
+  </channel>
+</rss>
