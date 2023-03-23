@@ -37,7 +37,7 @@ The **Back-End** is responsible of the decoding and the execution management.
 It also integrates ranming mechanisms used by multiple units for integers.
 The **INT** is responsible of the execution of integer operation.
 The **LSU** is responsible of the execution of integer memory operations.
-The Hardware Field Unit (**HFU**) is an execution unit dedicated to fields management ([CHAMP ISA](/doc/isa/champ)).
+The Hardware Field Unit (**HFU**) is an execution unit dedicated to field management ([CHAMP ISA](/doc/isa/champ)).
 The **I/O** module is used for core's specific memory addressable mechanism (*e.g.* privileged timers).
 **L1I**, **L1D** and **L2** are respectively the Level 1 Instruction, Level 1 Data and the Level 2 (Instruction and Data) private cache memories.
 
