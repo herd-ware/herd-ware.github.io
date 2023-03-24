@@ -4,5 +4,6 @@ title: "HerdWare"
 ---
 
 {{% notice style="warning" %}}
-La version française du site n'est actuellement pas mise à jour. En attendant, merci de basculer sur la version anglaise.
+Le site est actuellement **en cours de développement**.
+Plus de contenu bientôt disponible.
 {{% /notice %}}

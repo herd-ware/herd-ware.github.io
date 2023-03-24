@@ -3,7 +3,7 @@ File: gls.html
 Created Date: 2023-02-18 02:23:51 pm
 Author: Mathieu Escouteloup
 -----
-Last Modified: 2023-02-25 02:50:25 pm
+Last Modified: 2023-03-24 10:59:02 pm
 Modified By: Mathieu Escouteloup
 -----
 License: See LICENSE.md
@@ -17,11 +17,23 @@ Description:
 <div class="gls-full" style="font-style: italic; display:inline-block">{{ .Get "full" }}</div>
 
 <details>
-  <summary class="gls-def" style="text-decoration: underline; display:inline-block">Definition:</summary>
+  <summary class="gls-def" style="text-decoration: underline; display:inline-block">
+    {{ if eq (.Get "lang") "fr"}}
+      Définition:
+    {{ else }}
+      Definition:
+    {{ end }}
+  </summary>
   {{ .Get "definition" }}
 </details>
 {{ if or (.Get "also") }}
-  <span class="gls-also" style="text-decoration: underline;">See also: </span>
+  <span class="gls-also" style="text-decoration: underline;">
+    {{ if eq (.Get "lang") "fr"}}
+      Voir aussi:
+    {{ else }}
+      See also:
+    {{ end }}
+  </span>
   {{ .Get "also" }}
   <br/>
 {{ end }}
