@@ -5,7 +5,7 @@ menuTitle: "Aubrac"
 weight: 1
 ---
 
-{{% notice style="tip" title="Name origin" %}}
+{{% notice style="tip" title="Origine du nom" %}}
 <img src="/img/aubrac-haute.jpg" alt="Aubrac Haute" style="width: 400px; display: block; margin: 0 auto;">
  
 <div style="text-align: center; font-size: 10px;"> 
@@ -31,7 +31,7 @@ Basé sur l'ISA RISC-V, il est développé en Chisel3 et se veut hautement confi
   sub="Tous les différents étages possibles sont représentés, même si certains d'entre eux sont optionnels."
 >}}
 
-La Figure 1 rprésente le processeur Aubrac entier.
+La Figure 1 représente le processeur Aubrac entier.
 Celui-ci est composé de 8 parties.</br>
 Le **Front-End** est responsable de la récupération des instructions en mémoire.
 Le **NLP** est responsable de la prédiction des aléas du flot de contrôle.

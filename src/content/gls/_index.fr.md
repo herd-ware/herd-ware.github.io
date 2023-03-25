@@ -27,21 +27,24 @@ weight: 101
 {{< gls 
   lang="fr"
   acr="HDL" 
-  full="Hardware Description Language" 
+  full="Langage de description matérielle" 
+  en="Hardware Description Language" 
   definition="" 
 >}}
 
 {{< gls 
   lang="fr"
   acr="ISA" 
-  full="Instruction Set Architecture" 
+  full="Architecture de jeu d'instructions" 
+  en="Instruction Set Architecture" 
   definition="" 
 >}}
 
 {{< gls 
   lang="fr"
   acr="NLP" 
-  full="Next Line Predictor" 
+  full="Prédicteur de prochaine ligne" 
+  en="Next Line Predictor" 
   definition="" 
 >}}
 

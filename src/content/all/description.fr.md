@@ -6,6 +6,7 @@ weight: 1
 ---
 
 ## Informations globales
+
 ## Langage de description matérielle (HDL)
 
 Les langages de description matérielle sontutilisés pour décrire le fonctionnement des circuits électroniques numériques.

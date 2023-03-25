@@ -5,7 +5,7 @@ menuTitle: "NLP"
 weight: 2
 ---
 
-### Overview
+## Overview
 
 {{< fig 
   fig="/fig/nlp.png"
@@ -16,12 +16,12 @@ weight: 2
   subcaption="Each cycle, the Front-End requests the NLP to have informations about the next PC. If it corresponds to a known taken branch or jump, the NLP speculates on the following PC."
 >}}
 
-### Internal components
+## Internal components
 
 
 
 
-#### Branch Target buffer (BTB)
+### Branch Target buffer (BTB)
 
 {{< fig 
   fig="/fig/btb.png"
@@ -32,7 +32,7 @@ weight: 2
   subcaption="When a jump or branch is detected, its informations are stored in the BTB. Later, before fetching the PC, the BTB is read to anticipate potential control flow change using available informations."
 >}}
 
-#### Branch History Table (BHT)
+### Branch History Table (BHT)
 
 {{< fig 
   fig="/fig/bht-fsm.png"
@@ -52,7 +52,7 @@ weight: 2
   subcaption="The LSBs of the address of each branch lead to a particular counter. Depending on its MSB value, the BHT can indicate if a branch must be taken* or not-taken."
 >}}
 
-#### Return Stack Buffer (RSB)
+### Return Stack Buffer (RSB)
 
 {{< fig 
   fig="/fig/rsb.png"
@@ -63,3 +63,5 @@ weight: 2
   subcaption="When a call is detected, the PC of the following instruction (basically PC + 4) is stored on top of the RSB, and the pointer is encremented. When a return is detected, the last value on the RSB is returned, and the pointer is decremented."
 >}}
 
+
+## Information update

@@ -4,7 +4,7 @@ menuTitle: "Pipeline"
 weight: 1
 ---
 
-### Overview
+## Overview
 
 ![Overview of the Aubrac core.](/fig/aubrac-pipeline.png)
 

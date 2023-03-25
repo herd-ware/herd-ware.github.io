@@ -2,5 +2,5 @@
 archetype: "page"
 title: "Interruptions locales du processeur (CLINT)"
 menuTitle: "CLINT"
-weight: 1
+weight: 2
 ---

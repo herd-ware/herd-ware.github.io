@@ -4,6 +4,8 @@ menuTitle: "Core"
 weight: 2
 ---
 
+## Overview
+
 ![Overview of the Aubrac core.](/fig/aubrac-top.png)
 
 {{< caption 

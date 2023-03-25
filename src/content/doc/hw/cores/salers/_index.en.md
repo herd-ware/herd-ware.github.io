@@ -2,7 +2,7 @@
 archetype: "part"
 title: "Salers core"
 menuTitle: "Salers"
-weight: 1
+weight: 2
 ---
 
 {{% notice style="warning" %}}

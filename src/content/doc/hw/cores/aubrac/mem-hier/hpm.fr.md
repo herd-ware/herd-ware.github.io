@@ -2,7 +2,7 @@
 archetype: "page"
 title: "Moniteur des performances matérielles (HPM)"
 menuTitle: "HPM"
-weight: 3
+weight: 4
 ---
 
 

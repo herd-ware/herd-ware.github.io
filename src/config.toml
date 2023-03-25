@@ -8,29 +8,16 @@ publishDir = "../docs"
   alwaysopen = false
   collapsibleMenu = true
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 [Languages]
-[Languages.en]
-title = "HerdWare"
-weight = 1
-languageName = "English"
 [Languages.fr]
 title = "HerdWare"
 weight = 2
 languageName = "Français"
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub"
-url = "https://github.com/herd-ware"
+[Languages.en]
+title = "HerdWare"
 weight = 1
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-book'></i> Publications"
-url = "more/publi/"
-weight = 2
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-star'></i> About"
-url = "more/about/"
-weight = 10
+languageName = "English"
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub"
@@ -42,6 +29,19 @@ url = "more/publi/"
 weight = 2
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-star'></i> À propos"
+url = "more/about/"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+url = "https://github.com/herd-ware"
+weight = 1
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book'></i> Publications"
+url = "more/publi/"
+weight = 2
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-star'></i> About"
 url = "more/about/"
 weight = 10
 

@@ -32,9 +32,9 @@ Based on the RISC-V ISA, it is developed in Chisel3 and has a lot of different p
 
 The Figure 1 represents the whole Aubrac core.
 It is composed of 8 parts.<br/>
-The **Front-End** is responsible of the instruction fetch.
+The **Front-End** is responsible for the instruction fetch.
 The **NLP** is used to predict control-flow changes.
-The **Back-End** is responsible of the decoding and the execution of the instructions.
+The **Back-End** is responsible for the decoding and the execution of the instructions.
 The Hardware Field Unit (**HFU**) is an execution unit dedicated to fields management ([CHAMP ISA](/doc/isa/champ)).
 The **I/O** module is used for core's specific memory addressable mechanism (*e.g.* privileged timers).
 **L1I**, **L1D** and **L2** are respectively the Level 1 Instruction, Level 1 Data and the Level 2 (Instruction and Data) private cache memories.
@@ -46,7 +46,7 @@ The **I/O** module is used for core's specific memory addressable mechanism (*e.
 The Aubrac core is based on the RISC-V ISA.
 It currently supports both 32 and 64 bits bases.
 
-| Extension       |  Version  |   Implemented ?    |      Tested ?      |     Optional ?     | Depends on ... |
+| Extension       |  Version  |   Implemented ?    |      Tested ?      |     Optional ?     | Dependencies   |
 |:----------------|:----------|:-------------------|:-------------------|:-------------------|:---------------|
 | **M**           | 2.0       | {{% icon check %}} | {{% icon check %}} | {{% icon check %}} |                |
 | **A**           | 2.1       | {{% icon check %}} | {{% icon check %}} | {{% icon check %}} |                |

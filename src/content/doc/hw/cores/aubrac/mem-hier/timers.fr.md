@@ -2,5 +2,5 @@
 archetype: "page"
 title: "Timers privilégiés"
 menuTitle: "Timers"
-weight: 2
+weight: 3
 ---
