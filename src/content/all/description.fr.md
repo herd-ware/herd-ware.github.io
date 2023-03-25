@@ -5,28 +5,28 @@ date: 2023-02-18T10:52:46+01:00
 weight: 1
 ---
 
-## Global information
-## Hardware Description Language (HDL)
+## Informations globales
+## Langage de description matérielle (HDL)
 
-Hardware description languages are used to describe the behavior of electronic circuits.
-For the design of its hardware components, HerdWare mainly use the [Chisel3](https://www.chisel-lang.org/) language.
+Les langages de description matérielle sontutilisés pour décrire le fonctionnement des circuits électroniques numériques.
+Pour la conception des différents composants matériels, HerdWare se base principalement sur le langage [Chisel3](https://www.chisel-lang.org/).
 
-Chisel3 is an open-source language, initially developped in University of Berkeley, and based on the Scala language.
-It allows to describe the behavior of digital designs, but also adds features for hardware generation.
-It can be compiled to generate synthesizable Verilog.
-Because it is based on the Scala language, it also enables the use of high-level features (object oriented programming, inheritance *etc.*). 
+Chisel3 est un langage libre et ouvert initialement développé à l'Université de Berkeley et basé sur le langage Scala.
+Il permet la description du fonctionnement de circuits numériques, mais aussi intègre des fonctionnalités pour la génération matérielle.
+Le Chisel3 peut être compilé afin de générer du Verilog synthétisable.
+Étant basé sur le langage Scala, le Chisel3 supporte également des fonctionnalités de langage haut-niveau (programmation orientée objet, héritage *etc.*).
 
-In Herdware, most of the designs (cores, peripherals *etc.*) are described using Chisel3.
-They are organized in many different reusable modules.
-As described in the following pages, objects are then instantiated in the code to allow the Verilog generation of each component.
-Finally, the different generated Verilog designs are perfectly compatible with basic EDA tools (Vivado, Verilator or other ones supporting Verilog).
+Dans HerdWare, la plupart des composants matériels (processeurs, périphériques *etc.*) sont conçus en utilisant du Chisel3.
+Ils sont principalement organisés en de nombreux modules réutilisables.
+Comme décrit dans les prochaines pages, des objets sont ensuite instanciés dans le code pour permettre la génération du Verilog de chaque composant.
+Finalement, les différents composants Verilog générés sont parfaitement compatibles avec les outils de conceptions standards (Vivado, Verilator et tous ceux supportant le Verilog).
 
 
-## Organization
+## Organisation
 
-- [HerdWare](/all): This part gives global information about the project.
-Different pages are available about tools installation, simulation and customization.
-- [Documentation](/doc): This part describes the different developments in the project: hardware, software but also custom ISA changes.
-The code of most of them are directly available on [GitHub](https://github.com/herd-ware).
-- [References](/refs): This page lists all the different references of the website.
-- [Glossary](/gls): This page lists some of the technical words used here.
+- [HerdWare](/fr/all): Cette partie donne des informations globales sur le projet.
+Différentes pages sont disponibles pour l'installation des outils, la simulation des composants matériels et leur configuration.
+- [Documentation](/doc): Cette partie décrit les différents développements du projet: matériel, logiciel mais aussi des modifications du jeu d'instructions.
+Le code de la plupart d'entre eux est directement disponible sur [GitHub](https://github.com/herd-ware).
+- [Références](/fr/refs): Cette page liste les différetes références (articles, sites) utilisées sur le site.
+- [Glossaire](/fr/gls): Cette page liste les différents acronymes et termes techniques utilisés sur le site.

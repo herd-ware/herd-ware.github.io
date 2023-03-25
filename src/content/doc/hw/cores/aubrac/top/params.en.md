@@ -27,16 +27,8 @@ weight: 3
   sub=""
 >}}
 
-| **Name**       | **Type** | **Values** | **Description** |
-|:---------------|:---------|:-----------|:----------------|
-| **nFetchInstr** | Int | 2^N | Number of instructions simultaneously fetched. |
-| **useIMemSeq** | Boolean | *true* / *false* | Enable / disable sequential access to the instruction memory (*e.g.* flush is considered only in the next cycle). |
-| **useIf1Stage** | Boolean | *true* / *false* | Enable / disable the IF1 stage. |
-| **nFetchBufferDepth** | Int | N | Size of the fetch buffer. |
-
 ## Chisel example
 
 ```scala
-def test: Int = 10 // comment what about a long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long comment ?
 
 ```

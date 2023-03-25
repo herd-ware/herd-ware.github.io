@@ -1,6 +1,6 @@
 ---
 archetype: "page"
-title: "Restricted timers"
+title: "Timers privilégiés"
 menuTitle: "Timers"
 weight: 2
 ---

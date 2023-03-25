@@ -1,5 +1,5 @@
 ---
-title: "Étage ID"
+title: "ID stage"
 menuTitle: "ID"
 weight: 1
 ---

@@ -13,4 +13,4 @@ weight: 100
 ## Contact
 
 En cas de question ou commentaire à propos du projet, des designs ou des développements actuels, n'hésitez pas à envoyer un [email](mailto:mathieu.escouteloup@laas.fr).
-En cas d'u problème technique précis, il est également possible de créer une *issue* dédiée sur le projet GitHub correspondant (*e.g.* [page d'*issue* pour root](https://github.com/herd-ware/root/issues)).
+En cas de problème technique précis, il est également possible de créer une *issue* dédiée sur le projet GitHub correspondant (*e.g.* [page d'*issue* pour root](https://github.com/herd-ware/root/issues)).

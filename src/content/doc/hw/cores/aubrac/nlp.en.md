@@ -13,7 +13,7 @@ weight: 2
   width=400px   
   x="1"
   caption="Overview of the NLP."
-  subcaption="Each cycle, the Front-End requests the NLP to have informations about the next PC. If it corresponds to a known taken branch or jump, the NLP specute on the following PC."
+  subcaption="Each cycle, the Front-End requests the NLP to have informations about the next PC. If it corresponds to a known taken branch or jump, the NLP speculates on the following PC."
 >}}
 
 ### Internal components

@@ -5,11 +5,6 @@ date: 2023-02-18T10:52:46+01:00
 weight: 1
 ---
 
-[Wate2019](/refs#Wate2019)
-[Wate2021](/refs#Wate2021)
-{{% expand title="Expand me..." %}}Thank you!{{% /expand %}}
-
-
 ## Global information
 ## Hardware Description Language (HDL)
 
