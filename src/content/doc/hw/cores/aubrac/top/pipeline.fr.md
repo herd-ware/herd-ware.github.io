@@ -4,7 +4,7 @@ menuTitle: "Pipeline"
 weight: 1
 ---
 
-### Overview
+## Vue globale
 
 ![Vue globale du pipeline implémenté dans Aubrac.](/fig/aubrac-pipeline.png)
 

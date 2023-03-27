@@ -11,7 +11,7 @@ weight: 1
 <div class="bio-row">
   <div class="bio-col-left" style="width: 60%">
     <h2 class="bio-h2"> Biographie</h2>
-    Je suis actuellement post-doctorant en sécurité informatique au <a href="https://www.laas.fr/public/">LAAS-CNRS</a> de Toulouse, France.
+    Je suis actuellement post-doctorant en sécurité informatique au <a href="https://www.laas.fr/public/">LAAS-CNRS</a> de Toulouse en France.
     Je travaille avec <a href="https://gei.insa-toulouse.fr/fr/departement/people/vincent-migliore.html">Vincent Migliore</a> sur la conception de processeurs sécurisé contre les attaques par canaux auxiliaires (consommation d'énergie et émissions électromagnétiques).
     </br>
     Précédemment, j'ai obtenu un diplôme d'ingénieur par apprentissage en électronique et microélectronique à <a href="https://phelma.grenoble-inp.fr/">PHELMA - Grenoble INP</a>.

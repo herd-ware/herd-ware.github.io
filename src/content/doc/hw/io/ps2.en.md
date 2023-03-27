@@ -1,5 +1,5 @@
 ---
-archetype: "chapter"
+archetype: "page"
 title: "PS/2"
 menuTitle: "PS/2"
 weight: 5

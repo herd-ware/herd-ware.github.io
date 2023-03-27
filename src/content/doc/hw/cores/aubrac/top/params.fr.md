@@ -5,28 +5,6 @@ weight: 3
 ---
 
 
-## Description
-
-
-
-| **Nom**        | **Type** | **Valeurs** | **Description** |
-|:---------------|:---------|:------------|:----------------|
-| **debug**      | Boolean  | *true* / *false* | Active/désactive la génération de signaux et registres supplémentaires pour le debug en simulation. simulation. |
-| **pcBoot**     | String   | "hhhhhhhh" | Adresse de la première instruction exécutée |
-| **nAddrBit**   | Int      | 32 | Taille des addresses. |
-| **nDataBit**   | Int      | 32 / 64 | Taille des données. |
-| **nFetchInstr** | Int | 2^N | Nombre d'instructions récupérées simultanément en mémoire. |
-| **useIMemSeq** | Boolean | *true* / *false* | Active/désactive les accès séquentiels vers la mémoire d'instructions (*e.g.* les opérations de *flush* sont considérées qu'au cycle suivant). |
-| **useIf1Stage** | Boolean | *true* / *false* | Active/désactive l'étage IF1. |
-| **nFetchBufferDepth** | Int | N | Taille du buffer de sortie du Front-End. |
-
-{{< caption 
-  type="Table" 
-  x="1"
-  main="Récapitulatif des différents paramètres globaux du processeur Aubrac."
-  sub=""
->}}
-
 ## Exemple Chisel3
 
 ```scala 
@@ -37,54 +15,54 @@ object AubracConfigBase extends AubracConfig (
   // ------------------------------
   //            GLOBAL
   // ------------------------------
-  debug = true,         
-  pcBoot = "00001000",
-  nAddrBit = 32,
-  nDataBit = 32, 
+  debug = true,               // Boolean  -> Active les signaux/registres de débuggage en simulation.
+  pcBoot = "00001000",        // String   -> Adresse de démarrage
+  nAddrBit = 32,              // Int      -> Taille d'une addresse (en bit)
+  nDataBit = 32,              // Int      -> Taille d'une donnée (en bit)
 
   // ------------------------------
   //            CHAMP
   // ------------------------------
-  useChamp = true,
-  nChampReg = 4,
-  useChampExtMie = true,
-  useChampExtFr = false,
-  useChampExtCst = true,
-  nChampTrapLvl = 2,
+  useChamp = true,            // Boolean  -> Ative l'utilisation de l'ISA CHAMP.
+  nChampReg = 4,              // Int      -> Nombre de registres CHAMP.
+  useChampExtMie = true,      // Boolean  -> Active l'isolation microarchitecturale des exécutions (mie)
+  useChampExtFr = false,      // Boolean  -> (Non-utilisé).
+  useChampExtCst = true,      // Boolean  -> Active les flushs en temps constant.
+  nChampTrapLvl = 2,          // Boolean  -> Niveaux de traps
   
-  nPart = 2,
-  nFieldFlushCycle = 10,
+  nPart = 2,                  // Int      -> Nombre de parties matérielles.
+  nFieldFlushCycle = 10,      // Int      -> Nombre de cycles par flush (pour temps constant).
 
   // ------------------------------
   //           FRONT END
   // ------------------------------
-  nFetchInstr = 1,
-  useIMemSeq = true,
-  useIf1Stage = false,
-  nFetchBufferDepth = 2,
+  nFetchInstr = 1,            // Int      -> Nombres d'instructions récupérées simultanément
+  useIMemSeq = true,          // Boolean  -> Accès mémoire séquentiel
+  useIf1Stage = false,        // Boolean  -> Active le stage IF1
+  nFetchBufferDepth = 2,      // Int      -> Taille du fetch buffer
 
   // ------------------------------
   //       NEXT-LINE PREDICTOR
   // ------------------------------
-  useNlp = true,
-  nBtbLine = 8,
-  nBhtSet = 8,
-  nBhtSetEntry = 128,
-  nBhtBit = 2,
-  useRsbSpec = true,
-  nRsbDepth = 8,
+  useNlp = true,              // Boolean  -> Utilise le NLP
+  nBtbLine = 8,               // Int      -> Taille du BTB
+  nBhtSet = 8,                // Int      -> Nombre d'ensembles du BHT
+  nBhtSetEntry = 128,         // Int      -> Nombre d'entrées par ensemble du BHT
+  nBhtBit = 2,                // Int      -> Nombre de bits par compteur du BHT
+  useRsbSpec = true,          // Boolean  -> Active ls RSB spéculatif
+  nRsbDepth = 8,              // Int      -> Taille du RSB
 
   // ------------------------------
   //           BACK END
   // ------------------------------
-  useExtM = true,
-  useExtA = false,
-  useExtB = false,
-  useExtZifencei = true,
-  useExtZicbo = true,
+  useExtM = true,             // Boolean  ->
+  useExtA = false,            // Boolean  ->
+  useExtB = false,            // Boolean  ->
+  useExtZifencei = true,      // Boolean  ->
+  useExtZicbo = true,         // Boolean  ->
   nExStage = 1,
-  useMemStage = true,
-  useBranchReg = true,
+  useMemStage = true,         // Boolean  ->
+  useBranchReg = true,        // Boolean  ->
 
   // ------------------------------
   //              I/Os
@@ -95,7 +73,7 @@ object AubracConfigBase extends AubracConfig (
   isHpmAct = Array("ALL"),
   hasHpmMap = Array(),
 
-  nUnCacheBase = "70000000",
+  nUnCacheBase = "70000000",  // Int      ->
   nUnCacheByte = "01000000",
 
   // ------------------------------

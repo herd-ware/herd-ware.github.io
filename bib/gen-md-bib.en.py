@@ -1,9 +1,9 @@
 '''
-File: gen-md-bib.py
+File: gen-md-bib.en.py
 Created Date: 2023-03-05 10:08:10 am
 Author: Mathieu Escouteloup
 -----
-Last Modified: 2023-03-05 02:56:21 pm
+Last Modified: 2023-03-24 10:46:49 pm
 Modified By: Mathieu Escouteloup
 -----
 License: See LICENSE.md

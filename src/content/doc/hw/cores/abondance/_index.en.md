@@ -34,7 +34,7 @@ It is composed of 10 parts.<br/>
 The **Front-End** is responsible for the instruction fetch.
 The **NLP** is used to predict control-flow changes.
 The **Back-End** is responsible for the decoding and the execution management.
-It also integrates ranming mechanisms used by multiple units for integers.
+It also integrates renaming mechanisms used by multiple units for integers.
 The **INT** is responsible for the execution of integer operation.
 The **LSU** is responsible for the execution of integer memory operations.
 The Hardware Field Unit (**HFU**) is an execution unit dedicated to field management ([CHAMP ISA](/doc/isa/champ)).

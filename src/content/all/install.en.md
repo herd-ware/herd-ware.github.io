@@ -24,7 +24,7 @@ Most of them are completely free and open-source.
 | Verilator        |                    |                    | {{% icon check %}} |                    |
 | GtkWave          |                    |                    | {{% icon check %}} |                    |
 | Vivado           |                    |                    |                    | {{% icon check %}} |
-| RISC-V Toolchain |                    | {{% icon check %}} | {{% icon check %}} | {{% icon check %}} |
+| RISC-V Toolchain |                    | {{% icon check %}} | {{% icon check %}} |                    |
 
 {{< caption 
   type="Table" 

@@ -4,6 +4,9 @@ menuTitle: "Processeur"
 weight: 2
 ---
 
+
+## Vue globale
+
 ![Vue globale du processeur Aubrac.](/fig/aubrac-top.png)
 
 {{< caption 

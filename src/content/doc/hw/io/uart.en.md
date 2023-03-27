@@ -1,5 +1,5 @@
 ---
-archetype: "chapter"
+archetype: "page"
 title: "UART"
 menuTitle: "UART"
 weight: 2
