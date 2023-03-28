@@ -13,9 +13,9 @@ weight: 2
 ## Principes
 
 Pour anticiper les aléas du flot de contrôle, le processeur Aubrac met en place des mécanismes de prédiction de branchement.
-Le principe est de sauvegarder des ifnromations au cours de l'exécution afin d'anticiper les futurs branchements ou saut.
+Le principe est de sauvegarder des informations au cours de l'exécution afin d'anticiper les futurs branchements ou sauts.
 
-Différentes implémentations de branchement sont possibles.
+Différentes implémentations de prédicteurs sont possibles.
 Elles varient généralement par leur complexité et leur efficacité.
 
 ## Implémentations

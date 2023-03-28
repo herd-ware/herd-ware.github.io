@@ -28,4 +28,6 @@ La version actuelle du Front-End est composée de cinq étages configurables:
 1. L'étage PC calcule l'adresse de la prochaine instruction à charger en mémoire.
 2. Les étages IF{0-2} gèrent l'interface mémoire pour la récupération des instructions.
 3. L'étage IF3 est utilisé pour le pré-décodage avant d'envoyer les instructions dans le **fetch buffer**.
+
+L'ensemble du code est disponible dans un répertoire du projet Aubrac sur [GitHub](https://github.com/herd-ware/hw-core-aubrac/tree/main/src/main/scala/front).
    

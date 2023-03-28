@@ -15,6 +15,10 @@ weight: 1
   subcaption="À chaque cycle, le Front-End damande au NLP les informations sur le prochain PC. Si celui-ci correspond à des informations internes comme un saut ou un branchement pris, alors le NLP spécule sur le PC suivant."
 >}}
 
+objectif: simple implémentation, réponse dans le cycle
+
+L'ensemble du code est disponible dans un répertoire du projet Aubrac sur [GitHub](https://github.com/herd-ware/hw-core-aubrac/tree/main/src/main/scala/nlp).
+
 ## Composants internes
 
 En interne, le NLP est basé sur plusieurs composants.
