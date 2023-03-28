@@ -15,9 +15,9 @@ N'hésitez pas à revenir le consulter!
 {{% /notice %}}
 
 <div style ="text-align: justify;">
-  Ce projet libre et ouvert vise à mettre à partager les développements matériels et logiciels issus de travaux de recherche.
+  Ce projet libre et ouvert vise à partager les développements matériels et logiciels issus de travaux de recherche.
   Différentes pages d'explications et de documentation sont disponibles sur ce site.
-  Les codes correspondant peuvent être récupérés sur le site <a href="https://github.com/herd-ware">GitHub</a>.
+  Les codes correspondants sont également accessibles sur <a href="https://github.com/herd-ware">GitHub</a>.
   Pour plus d'informations, n'hésitez pas à prendre <a href="/more/about/">contact</a>!
 </div>
 
