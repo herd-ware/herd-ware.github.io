@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logiciel on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/sw/index.html</link>
+    <description>Recent content in Logiciel on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/sw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ISA tests</title>
+      <link>https://herd-ware.github.io/doc/sw/isa-tests/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/sw/isa-tests/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

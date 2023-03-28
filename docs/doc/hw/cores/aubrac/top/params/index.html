@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.95.0">
+    <meta name="generator" content="Relearn 5.12.0+tip">
+    <meta name="description" content="">
+    <title>Paramètres :: HerdWare</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1680028177" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1680028177" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1680028177" rel="stylesheet">
+    <link href="/css/auto-complete.css?1680028177" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1680028177" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1680028177" rel="stylesheet">
+    <link href="/css/fonts.css?1680028177" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1680028177" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1680028177" rel="stylesheet">
+    <link href="/css/theme-color-light.css?1680028177" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1680028177" rel="stylesheet">
+    <link href="/css/print.css?1680028177" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1680028177" rel="stylesheet">
+    <script src="/js/url.js?1680028177"></script>
+    <script src="/js/variant.js?1680028177"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copier dans le presse-papiers';
+      window.T_Copied_to_clipboard = 'Copié dans le presse-papiers!';
+      window.T_Copy_link_to_clipboard = 'Copier le lien dans le presse-papiers';
+      window.T_Link_copied_to_clipboard = 'Lien copié dans le presse-papiers!';
+      window.T_No_results_found = 'Aucun résultat trouvé pour \u0022{0}\u0022';
+      window.T_N_results_found = '{1} résultats trouvés pour \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/herd-ware.github.io/';
+      window.variants && variants.init( [ 'color-light', 'color-dark' ] );
+    </script>
+
+   
+<link rel="stylesheet" href="/css/custom.css">
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/doc/hw/cores/aubrac/top/params/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="/doc/hw/cores/salers/index.html" title="Salers (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="/doc/hw/cores/aubrac/top/core/index.html" title="Processeur (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table des matières (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">HerdWare</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/doc/index.html"><span itemprop="name">Documentation</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/doc/hw/index.html"><span itemprop="name">Matériel</span></a><meta itemprop="position" content="3"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/doc/hw/cores/index.html"><span itemprop="name">Processeurs</span></a><meta itemprop="position" content="4"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/doc/hw/cores/aubrac/index.html"><span itemprop="name">Aubrac</span></a><meta itemprop="position" content="5"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/doc/hw/cores/aubrac/top/index.html"><span itemprop="name">Top</span></a><meta itemprop="position" content="6"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Paramètres</span><meta itemprop="position" content="7"></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#exemple-chisel3">Exemple Chisel3</a></li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="paramètres">Paramètres</h1>
+
+<h2 id="exemple-chisel3">Exemple Chisel3</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scala" data-lang="scala"><span style="display:flex;"><span><span style="color:#75715e">// ******************************
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//       AUBRAC CORE CONFIG 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// ******************************
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">object</span> <span style="color:#a6e22e">AubracConfigBase</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">AubracConfig</span> <span style="color:#f92672">(</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//            GLOBAL
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  debug <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>               <span style="color:#75715e">// Boolean  -&gt; Active les signaux/registres de débuggage en simulation.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  pcBoot <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;00001000&#34;</span><span style="color:#f92672">,</span>        <span style="color:#75715e">// String   -&gt; Adresse de démarrage
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nAddrBit <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">32</span><span style="color:#f92672">,</span>              <span style="color:#75715e">// Int      -&gt; Taille d&#39;une addresse (en bit)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nDataBit <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">32</span><span style="color:#f92672">,</span>              <span style="color:#75715e">// Int      -&gt; Taille d&#39;une donnée (en bit)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//            CHAMP
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useChamp <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>            <span style="color:#75715e">// Boolean  -&gt; Ative l&#39;utilisation de l&#39;ISA CHAMP.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nChampReg <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>              <span style="color:#75715e">// Int      -&gt; Nombre de registres CHAMP.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useChampExtMie <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>      <span style="color:#75715e">// Boolean  -&gt; Active l&#39;isolation microarchitecturale des exécutions (mie)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useChampExtFr <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>      <span style="color:#75715e">// Boolean  -&gt; (Non-utilisé).
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useChampExtCst <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>      <span style="color:#75715e">// Boolean  -&gt; Active les flushs en temps constant.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nChampTrapLvl <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>          <span style="color:#75715e">// Boolean  -&gt; Niveaux de traps
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  
+</span></span><span style="display:flex;"><span>  nPart <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>                  <span style="color:#75715e">// Int      -&gt; Nombre de parties matérielles.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nFieldFlushCycle <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">10</span><span style="color:#f92672">,</span>      <span style="color:#75715e">// Int      -&gt; Nombre de cycles par flush (pour temps constant).
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//           FRONT END
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nFetchInstr <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>            <span style="color:#75715e">// Int      -&gt; Nombres d&#39;instructions récupérées simultanément
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useIMemSeq <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>          <span style="color:#75715e">// Boolean  -&gt; Accès mémoire séquentiel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useIf1Stage <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>        <span style="color:#75715e">// Boolean  -&gt; Active le stage IF1
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nFetchBufferDepth <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>      <span style="color:#75715e">// Int      -&gt; Taille du fetch buffer
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//       NEXT-LINE PREDICTOR
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useNlp <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>              <span style="color:#75715e">// Boolean  -&gt; Utilise le NLP
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nBtbLine <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">8</span><span style="color:#f92672">,</span>               <span style="color:#75715e">// Int      -&gt; Taille du BTB
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nBhtSet <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">8</span><span style="color:#f92672">,</span>                <span style="color:#75715e">// Int      -&gt; Nombre d&#39;ensembles du BHT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nBhtSetEntry <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">128</span><span style="color:#f92672">,</span>         <span style="color:#75715e">// Int      -&gt; Nombre d&#39;entrées par ensemble du BHT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nBhtBit <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>                <span style="color:#75715e">// Int      -&gt; Nombre de bits par compteur du BHT
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useRsbSpec <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>          <span style="color:#75715e">// Boolean  -&gt; Active ls RSB spéculatif
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nRsbDepth <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">8</span><span style="color:#f92672">,</span>              <span style="color:#75715e">// Int      -&gt; Taille du RSB
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//           BACK END
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useExtM <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>             <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useExtA <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>            <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useExtB <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>            <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useExtZifencei <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>      <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useExtZicbo <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>         <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nExStage <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  useMemStage <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>         <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useBranchReg <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>        <span style="color:#75715e">// Boolean  -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//              I/Os
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nIOAddrBase <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;00100000&#34;</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nScratch <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nCTimer <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  isHpmAct <span style="color:#66d9ef">=</span> <span style="color:#a6e22e">Array</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ALL&#34;</span><span style="color:#f92672">),</span>
+</span></span><span style="display:flex;"><span>  hasHpmMap <span style="color:#66d9ef">=</span> <span style="color:#a6e22e">Array</span><span style="color:#f92672">(),</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  nUnCacheBase <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;70000000&#34;</span><span style="color:#f92672">,</span>  <span style="color:#75715e">// Int      -&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  nUnCacheByte <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;01000000&#34;</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//           L1I CACHE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useL1I <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1INextDataByte <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">8</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1INextLatency <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  useL1IPftch <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IPftchEntry <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IPftchEntryAcc <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IPftchMemRead <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IPftchMemWrite <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  nL1IMem <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IMemReadPort <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IMemWritePort <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  slctL1IPolicy <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;BitPLRU&#34;</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1ISet <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1ILine <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1IData <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//           L1D CACHE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useL1D <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DNextDataByte <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">8</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DNextLatency <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  useL1DPftch <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DPftchEntry <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DPftchEntryAcc <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DPftchMemRead <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DPftchMemWrite <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  nL1DMem <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DMemReadPort <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DMemWritePort <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  slctL1DPolicy <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;BitPLRU&#34;</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DSet <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DLine <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL1DData <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">//           L2 CACHE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// ------------------------------
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  useL2 <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2NextDataByte <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">8</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  useL2ReqReg <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  useL2AccReg <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  useL2AckReg <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2WriteFifoDepth <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2NextFifoDepth <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2NextLatency <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  useL2Pftch <span style="color:#66d9ef">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2PftchEntry <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2PftchEntryAcc <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2PftchMemRead <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2PftchMemWrite <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  nL2Mem <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2MemReadPort <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2MemWritePort <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  slctL2Policy <span style="color:#66d9ef">=</span> <span style="color:#e6db74">&#34;BitPLRU&#34;</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2Set <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2Line <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>  nL2Data <span style="color:#66d9ef">=</span> <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">)</span>
+</span></span></code></pre></div>
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<img src="/fig/logo.png">
+
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Rechercher (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="search-by">Rechercher</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Rechercher...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['fr'];
+        </script>
+        <script src="/js/auto-complete.js?1680028178" defer></script>
+        <script src="/js/lunr/lunr.min.js?1680028178" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1680028178" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1680028178" defer></script>
+        <script src="/js/lunr/lunr.fr.min.js?1680028178" defer></script>
+        <script src="/js/search.js?1680028178" defer></script>
+      </div>
+      <div id="homelinks" class="default-animation">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics enlarge morespace collapsible-menu">
+          <li data-nav-id="/all/index.html" class=""><input type="checkbox" id="section-0ce7b8f09a952c63216559bd37a7cf00" aria-controls="subsections-0ce7b8f09a952c63216559bd37a7cf00"><label for="section-0ce7b8f09a952c63216559bd37a7cf00"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu HerdWare</span></label><a class="padding" href="/all/index.html">HerdWare</a><ul id="subsections-0ce7b8f09a952c63216559bd37a7cf00" class="morespace collapsible-menu">
+          <li data-nav-id="/all/description/index.html" class=""><a class="padding" href="/all/description/index.html">Description</a></li>
+          <li data-nav-id="/all/install/index.html" class=""><a class="padding" href="/all/install/index.html">Installation</a></li>
+          <li data-nav-id="/all/sim/index.html" class=""><a class="padding" href="/all/sim/index.html">Simulation</a></li>
+          <li data-nav-id="/all/fpga/index.html" class=""><a class="padding" href="/all/fpga/index.html">FPGA</a></li>
+          <li data-nav-id="/all/hw/index.html" class=""><a class="padding" href="/all/hw/index.html">Génération matérielle</a></li>
+          <li data-nav-id="/all/history/index.html" class=""><a class="padding" href="/all/history/index.html">Historique</a></li></ul></li>
+          <li data-nav-id="/doc/index.html" class="parent "><input type="checkbox" id="section-06043265371ac579f4ac32463bf30650" aria-controls="subsections-06043265371ac579f4ac32463bf30650" checked><label for="section-06043265371ac579f4ac32463bf30650"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Documentation</span></label><a class="padding" href="/doc/index.html">Documentation</a><ul id="subsections-06043265371ac579f4ac32463bf30650" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/isa/index.html" class=""><a class="padding" href="/doc/isa/index.html">ISA</a></li>
+          <li data-nav-id="/doc/hw/index.html" class="parent "><input type="checkbox" id="section-d896b930e5558e4781a0134d7c9d0db3" aria-controls="subsections-d896b930e5558e4781a0134d7c9d0db3" checked><label for="section-d896b930e5558e4781a0134d7c9d0db3"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Matériel</span></label><a class="padding" href="/doc/hw/index.html">Matériel</a><ul id="subsections-d896b930e5558e4781a0134d7c9d0db3" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/common/index.html" class=""><input type="checkbox" id="section-3faadb6822927366446d204505cf1021" aria-controls="subsections-3faadb6822927366446d204505cf1021"><label for="section-3faadb6822927366446d204505cf1021"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Common</span></label><a class="padding" href="/doc/hw/common/index.html">Common</a><ul id="subsections-3faadb6822927366446d204505cf1021" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/common/mb4s/index.html" class=""><a class="padding" href="/doc/hw/common/mb4s/index.html">MB4S</a></li></ul></li>
+          <li data-nav-id="/doc/hw/cores/index.html" class="parent "><input type="checkbox" id="section-9c26ce5c36c9cb5ac685c02d44c9ed2b" aria-controls="subsections-9c26ce5c36c9cb5ac685c02d44c9ed2b" checked><label for="section-9c26ce5c36c9cb5ac685c02d44c9ed2b"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Processeurs</span></label><a class="padding" href="/doc/hw/cores/index.html">Processeurs</a><ul id="subsections-9c26ce5c36c9cb5ac685c02d44c9ed2b" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/index.html" class="parent "><input type="checkbox" id="section-ddeba98ba71c08e826630f106ac25cbd" aria-controls="subsections-ddeba98ba71c08e826630f106ac25cbd" checked><label for="section-ddeba98ba71c08e826630f106ac25cbd"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Aubrac</span></label><a class="padding" href="/doc/hw/cores/aubrac/index.html">Aubrac</a><ul id="subsections-ddeba98ba71c08e826630f106ac25cbd" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/front/index.html" class=""><input type="checkbox" id="section-09ca2e7f822b105da24a75fbe5a64400" aria-controls="subsections-09ca2e7f822b105da24a75fbe5a64400"><label for="section-09ca2e7f822b105da24a75fbe5a64400"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Front-end</span></label><a class="padding" href="/doc/hw/cores/aubrac/front/index.html">Front-end</a><ul id="subsections-09ca2e7f822b105da24a75fbe5a64400" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/front/pc/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/front/pc/index.html">PC</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/front/if0_2/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/front/if0_2/index.html">IF{0-2}</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/front/if3/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/front/if3/index.html">IF3</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/front/params/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/front/params/index.html">Paramètres</a></li></ul></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/pred/index.html" class=""><input type="checkbox" id="section-298656798f0ffb2fcbac32b171445a41" aria-controls="subsections-298656798f0ffb2fcbac32b171445a41"><label for="section-298656798f0ffb2fcbac32b171445a41"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Prédiction de branchement</span></label><a class="padding" href="/doc/hw/cores/aubrac/pred/index.html">Prédiction de branchement</a><ul id="subsections-298656798f0ffb2fcbac32b171445a41" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/pred/nlp/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/pred/nlp/index.html">NLP</a></li></ul></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/back/index.html" class=""><input type="checkbox" id="section-c0c533f3bdb38e01c9c18f780b856f66" aria-controls="subsections-c0c533f3bdb38e01c9c18f780b856f66"><label for="section-c0c533f3bdb38e01c9c18f780b856f66"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Back-end</span></label><a class="padding" href="/doc/hw/cores/aubrac/back/index.html">Back-end</a><ul id="subsections-c0c533f3bdb38e01c9c18f780b856f66" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/back/id/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/back/id/index.html">ID</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/back/ex/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/back/ex/index.html">EX</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/back/mem/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/back/mem/index.html">MEM</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/back/wb/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/back/wb/index.html">WB</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/back/gpr/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/back/gpr/index.html">GPR</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/back/csr/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/back/csr/index.html">CSR</a></li></ul></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/mem-hier/index.html" class=""><input type="checkbox" id="section-e9dd7ac6a6982dfee3e6bffd6b8d9c08" aria-controls="subsections-e9dd7ac6a6982dfee3e6bffd6b8d9c08"><label for="section-e9dd7ac6a6982dfee3e6bffd6b8d9c08"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Hiérarchie mémoire</span></label><a class="padding" href="/doc/hw/cores/aubrac/mem-hier/index.html">Hiérarchie mémoire</a><ul id="subsections-e9dd7ac6a6982dfee3e6bffd6b8d9c08" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/mem-hier/caches/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/mem-hier/caches/index.html">Caches</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/mem-hier/clint/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/mem-hier/clint/index.html">CLINT</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/mem-hier/timers/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/mem-hier/timers/index.html">Timers</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/mem-hier/hpm/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/mem-hier/hpm/index.html">HPM</a></li></ul></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/top/index.html" class="parent "><input type="checkbox" id="section-56fdf9d3d99a2fd05ec4dceab6c384e9" aria-controls="subsections-56fdf9d3d99a2fd05ec4dceab6c384e9" checked><label for="section-56fdf9d3d99a2fd05ec4dceab6c384e9"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Top</span></label><a class="padding" href="/doc/hw/cores/aubrac/top/index.html">Top</a><ul id="subsections-56fdf9d3d99a2fd05ec4dceab6c384e9" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/aubrac/top/pipeline/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/top/pipeline/index.html">Pipeline</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/top/core/index.html" class=""><a class="padding" href="/doc/hw/cores/aubrac/top/core/index.html">Processeur</a></li>
+          <li data-nav-id="/doc/hw/cores/aubrac/top/params/index.html" class="active"><a class="padding" href="/doc/hw/cores/aubrac/top/params/index.html">Paramètres</a></li></ul></li></ul></li>
+          <li data-nav-id="/doc/hw/cores/salers/index.html" class=""><a class="padding" href="/doc/hw/cores/salers/index.html">Salers</a></li>
+          <li data-nav-id="/doc/hw/cores/abondance/index.html" class=""><input type="checkbox" id="section-5b79dc765fcd4cef1e7ce8f70f262ee0" aria-controls="subsections-5b79dc765fcd4cef1e7ce8f70f262ee0"><label for="section-5b79dc765fcd4cef1e7ce8f70f262ee0"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Abondance</span></label><a class="padding" href="/doc/hw/cores/abondance/index.html">Abondance</a><ul id="subsections-5b79dc765fcd4cef1e7ce8f70f262ee0" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/cores/abondance/top/index.html" class=""><a class="padding" href="/doc/hw/cores/abondance/top/index.html">Top</a></li></ul></li></ul></li>
+          <li data-nav-id="/doc/hw/io/index.html" class=""><input type="checkbox" id="section-db63864382fbe2d7d1ccccf68664c406" aria-controls="subsections-db63864382fbe2d7d1ccccf68664c406"><label for="section-db63864382fbe2d7d1ccccf68664c406"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu I/Os</span></label><a class="padding" href="/doc/hw/io/index.html">I/Os</a><ul id="subsections-db63864382fbe2d7d1ccccf68664c406" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/io/gpio/index.html" class=""><a class="padding" href="/doc/hw/io/gpio/index.html">GPIO</a></li>
+          <li data-nav-id="/doc/hw/io/uart/index.html" class=""><a class="padding" href="/doc/hw/io/uart/index.html">UART</a></li></ul></li>
+          <li data-nav-id="/doc/hw/mem/index.html" class=""><input type="checkbox" id="section-a51b81d17f1b6c8a60aec112006986dd" aria-controls="subsections-a51b81d17f1b6c8a60aec112006986dd"><label for="section-a51b81d17f1b6c8a60aec112006986dd"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Mémoires</span></label><a class="padding" href="/doc/hw/mem/index.html">Mémoires</a><ul id="subsections-a51b81d17f1b6c8a60aec112006986dd" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/mem/hay/index.html" class=""><a class="padding" href="/doc/hw/mem/hay/index.html">Hay</a></li></ul></li>
+          <li data-nav-id="/doc/hw/pltf/index.html" class=""><input type="checkbox" id="section-022089ffaf3ff6c458060463ccb3cab7" aria-controls="subsections-022089ffaf3ff6c458060463ccb3cab7"><label for="section-022089ffaf3ff6c458060463ccb3cab7"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Plateformes</span></label><a class="padding" href="/doc/hw/pltf/index.html">Plateformes</a><ul id="subsections-022089ffaf3ff6c458060463ccb3cab7" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/pltf/cheese/index.html" class=""><input type="checkbox" id="section-4e5ad6b266887ac199e555250f0a1574" aria-controls="subsections-4e5ad6b266887ac199e555250f0a1574"><label for="section-4e5ad6b266887ac199e555250f0a1574"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Cheese</span></label><a class="padding" href="/doc/hw/pltf/cheese/index.html">Cheese</a><ul id="subsections-4e5ad6b266887ac199e555250f0a1574" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/hw/pltf/cheese/top/index.html" class=""><a class="padding" href="/doc/hw/pltf/cheese/top/index.html">Top</a></li>
+          <li data-nav-id="/doc/hw/pltf/cheese/mem/index.html" class=""><a class="padding" href="/doc/hw/pltf/cheese/mem/index.html">Cartographie mémoire</a></li></ul></li></ul></li></ul></li>
+          <li data-nav-id="/doc/sw/index.html" class=""><input type="checkbox" id="section-1abc0a0582e856d96059b403273d3f29" aria-controls="subsections-1abc0a0582e856d96059b403273d3f29"><label for="section-1abc0a0582e856d96059b403273d3f29"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Sous-menu Logiciel</span></label><a class="padding" href="/doc/sw/index.html">Logiciel</a><ul id="subsections-1abc0a0582e856d96059b403273d3f29" class="morespace collapsible-menu">
+          <li data-nav-id="/doc/sw/isa-tests/index.html" class=""><a class="padding" href="/doc/sw/isa-tests/index.html">ISA tests</a></li></ul></li></ul></li>
+          <li data-nav-id="/refs/index.html" class=""><a class="padding" href="/refs/index.html">Références</a></li>
+          <li data-nav-id="/gls/index.html" class=""><a class="padding" href="/gls/index.html">Glossaire</a></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title padding">Aller plus loin</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/herd-ware"><i class='fab fa-fw fa-github'></i> GitHub</a></li>
+            <li><a class="padding" href="/more/publi/index.html"><i class='fas fa-fw fa-book'></i> Publications</a></li>
+            <li><a class="padding" href="/more/about/index.html"><i class='fas fa-fw fa-star'></i> À propos</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"></div>
+        <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showLangSwitch showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch showLangSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-language">Langue</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option lang="fr" id="fr" value="/doc/hw/cores/aubrac/top/params/index.html" selected>Français</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-variant">Thème</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="color-light" value="color-light" selected>Color Light</option>
+                    <option id="color-dark" value="color-dark">Color Dark</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Supprimer l&#39;historique</button></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1680028178" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1680028178" defer></script>
+    <script src="/js/theme.js?1680028178" defer></script>
+  </body>
+</html>

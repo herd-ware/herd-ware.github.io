@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HerdWare</title>
+    <link>https://herd-ware.github.io/all/index.html</link>
+    <description>Recent content on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Feb 2023 10:52:46 +0100</lastBuildDate><atom:link href="https://herd-ware.github.io/all/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Description</title>
+      <link>https://herd-ware.github.io/all/description/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/all/description/index.html</guid>
+      <description>Informations globales Langage de description matérielle (HDL) Les langages de description matérielle sontutilisés pour décrire le fonctionnement des circuits électroniques numériques. Pour la conception des différents composants matériels, HerdWare se base principalement sur le langage Chisel3.
+Chisel3 est un langage libre et ouvert initialement développé à l&amp;rsquo;Université de Berkeley et basé sur le langage Scala. Il permet la description du fonctionnement de circuits numériques, mais aussi intègre des fonctionnalités pour la génération matérielle.</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://herd-ware.github.io/all/install/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/all/install/index.html</guid>
+      <description>Pré-requis  sbt Verilator GTKWave Vivado Chaîne de compilation RISC-V   Installation locale  Pré-requis HerdWare utilise plusieurs outils pour générer, simuler et implémenter les différents composants matériels et logiciels. La plupart d&amp;rsquo;entre eux sont cepenant gratuits, libres et ouverts.
+   Outils Version Matériel Logiciel Simulation FPGA     sbt        Verilator v4.216       GtkWave        Vivado 2021.</description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>https://herd-ware.github.io/all/sim/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/all/sim/index.html</guid>
+      <description>Avertissement Avant de simuler un composant matériel, assurez-vous que les différents outils nécessaires soient installés comme expliqué sur la page dédiée. Notamment, les outils suivants sont utilisés:
+ sbt, Verilator, GTKWave, la chaîne de compilation RISC-V.    Première simulation Pour effectuer une simulation, ouvrez un terminal et placez-vous dans le répertoire HerdWare installé précédemment:
+ cd herd-ware Un fichier Makefile est disponible dans le répertoire principal root.</description>
+    </item>
+    <item>
+      <title>FPGA</title>
+      <link>https://herd-ware.github.io/all/fpga/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/all/fpga/index.html</guid>
+      <description>  Avertissement Avant de simuler un composant matériel, assurez-vous que les différents outils nécessaires soient installés comme expliqué sur la page dédiée. Notamment, les outils suivants sont utilisés:
+ sbt, Vivado    </description>
+    </item>
+    <item>
+      <title>Génération matérielle configurable</title>
+      <link>https://herd-ware.github.io/all/hw/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/all/hw/index.html</guid>
+      <description>Avertissement Avant de générer un composant matériel, assurez-vous que les différents outils nécessaires soient installés comme expliqué sur la page dédiée. Notamment, les outils suivants sont utilisés:
+ sbt, Verilator    Générer un composant matériel Il est possible de générer le Verilog de chaque composant matériel du projet. Tout d&amp;rsquo;abord, vous devez localiser dans quelle librairie se trouve la class et l&amp;rsquo;object correspondants. Par exemple, le composant Example est situé dans le fichier example.</description>
+    </item>
+    <item>
+      <title>Historique</title>
+      <link>https://herd-ware.github.io/all/history/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/all/history/index.html</guid>
+      <description>  Remarque Tous les tags des versions du projet disponibles sur GitHub ont le suffixe *-public. Cela permet de les distinguées des versions propres aux travaux de recherche en cours et pas encore publiés.
+  v0.0.1 - 2023-03-30  Documentation publique sur GitHub. Mise à disposition des codes sur GitHub:  Common (v0.0.1), Aubrac (v0.0.1), Abondance (v0.0.1), Hay (v0.0.1), I/Os (v0.0.1), Cheese (v0.0.1), répertoire root (v0.0.1), isa-tests (v0.0.1).    </description>
+    </item>
+  </channel>
+</rss>

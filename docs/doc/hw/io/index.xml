@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I/Os on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/io/index.html</link>
+    <description>Recent content in I/Os on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPIO</title>
+      <link>https://herd-ware.github.io/doc/hw/io/gpio/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/io/gpio/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UART</title>
+      <link>https://herd-ware.github.io/doc/hw/io/uart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/io/uart/index.html</guid>
+      <description>Protocole Transmetteur (Tx) Récepteur (Rx) Top </description>
+    </item>
+  </channel>
+</rss>

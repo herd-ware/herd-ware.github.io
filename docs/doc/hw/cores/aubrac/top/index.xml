@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Top on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/index.html</link>
+    <description>Recent content in Top on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pipeline</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/pipeline/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/pipeline/index.html</guid>
+      <description>Vue globale   
+Figure 1: Vue globale du pipeline implémenté dans Aubrac.  Tous les différents étages possibles sont représentés, même si certains d&amp;#39;entre eux sont optionnels.    </description>
+    </item>
+    <item>
+      <title>Processeur</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/core/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/core/index.html</guid>
+      <description>Vue globale   
+Figure 1: Vue globale du processeur Aubrac.  Tous les différents étages possibles sont représentés, même si certains d&amp;#39;entre eux sont optionnels.    </description>
+    </item>
+    <item>
+      <title>Paramètres</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/top/params/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/top/params/index.html</guid>
+      <description>Exemple Chisel3 // ****************************** // AUBRAC CORE CONFIG // ****************************** object AubracConfigBase extends AubracConfig (  // ------------------------------  // GLOBAL  // ------------------------------  debug = true, // Boolean -&amp;gt; Active les signaux/registres de débuggage en simulation.  pcBoot = &amp;#34;00001000&amp;#34;, // String -&amp;gt; Adresse de démarrage  nAddrBit = 32, // Int -&amp;gt; Taille d&amp;#39;une addresse (en bit)  nDataBit = 32, // Int -&amp;gt; Taille d&amp;#39;une donnée (en bit)   // ------------------------------  // CHAMP  // ------------------------------  useChamp = true, // Boolean -&amp;gt; Ative l&amp;#39;utilisation de l&amp;#39;ISA CHAMP.</description>
+    </item>
+  </channel>
+</rss>

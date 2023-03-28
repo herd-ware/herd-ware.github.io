@@ -1,0 +1,2 @@
+@import "theme-color-light.css" screen and (prefers-color-scheme: light);
+@import "theme-color-dark.css" screen and (prefers-color-scheme: dark);

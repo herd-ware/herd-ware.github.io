@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HerdWare</title>
+    <link>https://herd-ware.github.io/en/index.html</link>
+    <description>Recent content on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Feb 2023 10:52:46 +0100</lastBuildDate><atom:link href="https://herd-ware.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HerdWare</title>
+      <link>https://herd-ware.github.io/en/all/index.html</link>
+      <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
+      <guid>https://herd-ware.github.io/en/all/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>https://herd-ware.github.io/en/doc/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>References</title>
+      <link>https://herd-ware.github.io/en/refs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/refs/index.html</guid>
+      <description>Table of contents  Table of contents Digital system design and tools Instruction Set Architecture Processor microarchitecture &amp;amp; design Microarchitecture isolation Power &amp;amp; electromagnetic side-channels  Digital system design and tools [Chisel]: Chisel/FIRRTL Hardware Compiler Framework   2023 Link    Notes:   [Verilator]: Verilator  Snyder, Wilson 2022 Link    Notes:   Instruction Set Architecture [Patt2017]: Computer Organization and Design RISC-V Edition: The Hardware Software Interface  Patterson, David A.</description>
+    </item>
+    <item>
+      <title>Glossary</title>
+      <link>https://herd-ware.github.io/en/gls/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/gls/index.html</guid>
+      <description> BHT: Branch History Table  Definition:   BTB: Branch Target Buffer  Definition:   EDA: Electronic Design Automation  Definition:   HDL: Hardware Description Language  Definition:   ISA: Instruction Set Architecture  Definition:   NLP: Next Line Predictor  Definition:   RAS: Return Address Stack  Definition:   See also:  RSB  RSB: Return Stack Buffer  Definition:   See also:  RAS  </description>
+    </item>
+  </channel>
+</rss>
