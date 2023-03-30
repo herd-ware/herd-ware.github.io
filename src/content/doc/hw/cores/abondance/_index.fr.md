@@ -16,7 +16,7 @@ weight: 3
 {{% /notice %}}
 
 Cette page et les suivantes décrivent le processeur Abondance.
-Il permet exécution dans le désordre de plusieurs instructions par cycle.
+Il permet l'exécution dans le désordre de plusieurs instructions par cycle.
 Il est conçu autour d'un pipeline et plusieurs unités, ainsi que deux niveaux de mémoires caches.
 Basé sur l'ISA RISC-V, il est développé en Chisel3 et se veut hautement configurable (taille des données, nombre d'étages, extensions du jeu d'instructions supportées *etc.*).
 

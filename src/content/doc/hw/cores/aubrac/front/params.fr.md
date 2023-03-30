@@ -11,7 +11,7 @@ weight: 10
 
 ```scala
 object FrontConfigBase extends FrontConfig (
-  debug = true,           // Boolean  -> Enable wires/registers generation for simulation debug.
+  debug = true,           // Boolean  -> Active les signaux/registres de débuggage en simulation.
   pcBoot = "00001000",    // String   -> Adresse de démarrage
   nHart = 1,              // Int      -> Nombre de harts
   
