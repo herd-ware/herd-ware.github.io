@@ -12,7 +12,7 @@
       <link>https://herd-ware.github.io/all/description/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/description/index.html</guid>
-      <description>Informations globales Langage de description matérielle (HDL) Les langages de description matérielle sontutilisés pour décrire le fonctionnement des circuits électroniques numériques. Pour la conception des différents composants matériels, HerdWare se base principalement sur le langage Chisel3.
+      <description>Informations globales Langage de description matérielle (HDL) Les langages de description matérielle sont utilisés pour décrire le fonctionnement des circuits électroniques numériques. Pour la conception des différents composants matériels, HerdWare se base principalement sur le langage Chisel3.
 Chisel3 est un langage libre et ouvert initialement développé à l&amp;rsquo;Université de Berkeley et basé sur le langage Scala. Il permet la description du fonctionnement de circuits numériques, mais aussi intègre des fonctionnalités pour la génération matérielle.</description>
     </item>
     <item>
@@ -20,7 +20,7 @@ Chisel3 est un langage libre et ouvert initialement développé à l&amp;rsquo;U
       <link>https://herd-ware.github.io/all/install/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/install/index.html</guid>
-      <description>Pré-requis  sbt Verilator GTKWave Vivado Chaîne de compilation RISC-V   Installation locale  Pré-requis HerdWare utilise plusieurs outils pour générer, simuler et implémenter les différents composants matériels et logiciels. La plupart d&amp;rsquo;entre eux sont cepenant gratuits, libres et ouverts.
+      <description>Sommaire  Sommaire Pré-requis  sbt Verilator GTKWave Vivado Chaîne de compilation RISC-V   Installation locale  Pré-requis HerdWare utilise plusieurs outils pour générer, simuler et implémenter les différents composants matériels et logiciels. La plupart d&amp;rsquo;entre eux sont cependant gratuits, libres et ouverts.
    Outils Version Matériel Logiciel Simulation FPGA     sbt        Verilator v4.216       GtkWave        Vivado 2021.</description>
     </item>
     <item>

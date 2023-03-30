@@ -11,18 +11,18 @@
     <link href="https://herd-ware.github.io/all/install/index.html" rel="alternate" hreflang="fr">
     <link href="https://herd-ware.github.io/en/all/install/index.html" rel="alternate" hreflang="en">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1680035890" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1680035890" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1680035890" rel="stylesheet">
-    <link href="/css/auto-complete.css?1680035890" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1680035890" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1680035890" rel="stylesheet">
-    <link href="/css/fonts.css?1680035890" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1680035890" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1680035890" rel="stylesheet">
-    <link href="/css/theme-color-light.css?1680035890" rel="stylesheet" id="variant-style">
-    <link href="/css/variant.css?1680035890" rel="stylesheet">
-    <link href="/css/print.css?1680035890" rel="stylesheet" media="print">
-    <link href="/css/ie.css?1680035890" rel="stylesheet">
-    <script src="/js/url.js?1680035890"></script>
-    <script src="/js/variant.js?1680035890"></script>
+    <link href="/css/fontawesome-all.min.css?1680158615" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1680158615" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1680158615" rel="stylesheet">
+    <link href="/css/auto-complete.css?1680158615" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1680158615" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1680158615" rel="stylesheet">
+    <link href="/css/fonts.css?1680158615" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1680158615" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1680158615" rel="stylesheet">
+    <link href="/css/theme-color-light.css?1680158615" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1680158615" rel="stylesheet">
+    <link href="/css/print.css?1680158615" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1680158615" rel="stylesheet">
+    <script src="/js/url.js?1680158615"></script>
+    <script src="/js/variant.js?1680158615"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -70,6 +70,7 @@
           <div class="default-animation progress">
             <div class="toc-wrapper"><nav id="TableOfContents">
   <ul>
+    <li><a href="#sommaire">Sommaire</a></li>
     <li><a href="#pré-requis">Pré-requis</a>
       <ul>
         <li></li>
@@ -89,7 +90,9 @@
           <article class="page" style="text-align: justify">
 <h1 id="installation">Installation</h1>
 
+<h2 id="sommaire">Sommaire</h2>
 <ul>
+<li><a href="#sommaire">Sommaire</a></li>
 <li><a href="#pr%c3%a9-requis">Pré-requis</a>
 <ul>
 <li><a href="#sbt">sbt</a></li>
@@ -103,7 +106,7 @@
 </ul>
 <h2 id="pré-requis">Pré-requis</h2>
 <p>HerdWare utilise plusieurs outils pour générer, simuler et implémenter les différents composants matériels et logiciels.
-La plupart d&rsquo;entre eux sont cepenant gratuits, libres et ouverts.</p>
+La plupart d&rsquo;entre eux sont cependant gratuits, libres et ouverts.</p>
 <table>
 <thead>
 <tr>
@@ -181,7 +184,7 @@ La plupart d&rsquo;entre eux sont cepenant gratuits, libres et ouverts.</p>
 <br/>
 <h4 id="sbt">sbt</h4>
 <p>Sbt est un outil libre et ouvert utilisé pour intéragir avec les différents projets développés en Scala.
-HerdWare utilise pincipalement le langage <a href="https://www.chisel-lang.org/" target="_blank">Chisel3</a> pour la conception matérielle.
+HerdWare utilise principalement le langage <a href="https://www.chisel-lang.org/" target="_blank">Chisel3</a> pour la conception matérielle.
 Le Chisel3 étant est basé sur le Scala, sbt est donc parfaitement adapté.
 Aisni, dans la plupart des exemples de commandes présentés ici, sbt est utilisé.</p>
 <p>Pour installer sbt, le plus simple est de suivre les <a href="https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html" target="_blank">instructions d&rsquo;installation</a> correspondant à votre système d&rsquo;exploitation.</p>
@@ -296,15 +299,15 @@ Elle permet la compilation et l&rsquo;installation des différents outils pour l
     </div>
   </div>
 </div>
-avec <em>RISC_DIR</em> le chemin vers le répertoire où sera installée la chaîne de compilation.</p>
+avec <code>RISC_DIR</code> le chemin vers le répertoire où sera installée la chaîne de compilation.</p>
 
 <div class="box notices cstyle note">
   <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Remarque</div>
   <div class="box-content">
 <p>Il est possible d&rsquo;effectuer une installation avec différentes options en suivant les <a href="https://github.com/riscv-collab/riscv-gnu-toolchain#readme" target="_blank">instructions officielles</a>.
 Il est également possible d&rsquo;indiquer des options directement lors de la compilation.
-Les options <strong>-march</strong> et <strong>-mabi</strong> permettent notamment de changer l&rsquo;architecture (les différentes extensions utilisées) et l&rsquo;ABI.
-Actuellement, seule la version 32 bits de l&rsquo;ISA RISC-V avec les extensions M et A (<em>-march=rv32ima</em>) et l&rsquo;ABI la plus simple (<em>-mabi=ilp32</em>) a été testée.</p>
+Les options <code>-march</code> et <code>-mabi</code> permettent notamment de changer l&rsquo;architecture (les différentes extensions utilisées) et l&rsquo;ABI.
+Actuellement, seule la version 32 bits de l&rsquo;ISA RISC-V avec les extensions M et A (<code>-march=rv32ima</code>) et l&rsquo;ABI la plus simple (<code>-mabi=ilp32</code>) a été testée.</p>
   </div>
 </div>
 <h2 id="installation-locale">Installation locale</h2>
@@ -371,12 +374,12 @@ Il est organisé ainsi:</p>
         <script>
           var contentLangs=['fr'];
         </script>
-        <script src="/js/auto-complete.js?1680035890" defer></script>
-        <script src="/js/lunr/lunr.min.js?1680035890" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1680035890" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1680035890" defer></script>
-        <script src="/js/lunr/lunr.fr.min.js?1680035890" defer></script>
-        <script src="/js/search.js?1680035890" defer></script>
+        <script src="/js/auto-complete.js?1680158615" defer></script>
+        <script src="/js/lunr/lunr.min.js?1680158615" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1680158615" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1680158615" defer></script>
+        <script src="/js/lunr/lunr.fr.min.js?1680158615" defer></script>
+        <script src="/js/search.js?1680158615" defer></script>
       </div>
       <div id="homelinks" class="default-animation">
         <ul>
@@ -488,8 +491,8 @@ Il est organisé ainsi:</p>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1680035890" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1680035890" defer></script>
-    <script src="/js/theme.js?1680035890" defer></script>
+    <script src="/js/clipboard.min.js?1680158615" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1680158615" defer></script>
+    <script src="/js/theme.js?1680158615" defer></script>
   </body>
 </html>
