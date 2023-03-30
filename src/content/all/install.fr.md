@@ -5,6 +5,8 @@ date: 2023-02-18T10:52:46+01:00
 weight: 2
 ---
 
+## Sommaire
+- [Sommaire](#sommaire)
 - [Pré-requis](#pré-requis)
     - [sbt](#sbt)
     - [Verilator](#verilator)
@@ -15,7 +17,7 @@ weight: 2
 
 ## Pré-requis
 HerdWare utilise plusieurs outils pour générer, simuler et implémenter les différents composants matériels et logiciels.
-La plupart d'entre eux sont cepenant gratuits, libres et ouverts.
+La plupart d'entre eux sont cependant gratuits, libres et ouverts.
 
 | Outils           | Version | Matériel           | Logiciel           | Simulation         | FPGA               | 
 |:-----------------|---------|:-------------------|:-------------------|:-------------------|:-------------------|
@@ -34,7 +36,7 @@ La plupart d'entre eux sont cepenant gratuits, libres et ouverts.
 
 #### sbt
 Sbt est un outil libre et ouvert utilisé pour intéragir avec les différents projets développés en Scala.
-HerdWare utilise pincipalement le langage [Chisel3](https://www.chisel-lang.org/) pour la conception matérielle.
+HerdWare utilise principalement le langage [Chisel3](https://www.chisel-lang.org/) pour la conception matérielle.
 Le Chisel3 étant est basé sur le Scala, sbt est donc parfaitement adapté.
 Aisni, dans la plupart des exemples de commandes présentés ici, sbt est utilisé.
 
@@ -118,13 +120,13 @@ make
 ```
 {{% /tab %}}
 {{< /tabs >}}
-avec *RISC_DIR* le chemin vers le répertoire où sera installée la chaîne de compilation.
+avec `RISC_DIR` le chemin vers le répertoire où sera installée la chaîne de compilation.
 
 {{% notice style="note" %}}
 Il est possible d'effectuer une installation avec différentes options en suivant les [instructions officielles](https://github.com/riscv-collab/riscv-gnu-toolchain#readme).
 Il est également possible d'indiquer des options directement lors de la compilation.
-Les options **-march** et **-mabi** permettent notamment de changer l'architecture (les différentes extensions utilisées) et l'ABI.
-Actuellement, seule la version 32 bits de l'ISA RISC-V avec les extensions M et A (*-march=rv32ima*) et l'ABI la plus simple (*-mabi=ilp32*) a été testée.
+Les options `-march` et `-mabi` permettent notamment de changer l'architecture (les différentes extensions utilisées) et l'ABI.
+Actuellement, seule la version 32 bits de l'ISA RISC-V avec les extensions M et A (`-march=rv32ima`) et l'ABI la plus simple (`-mabi=ilp32`) a été testée.
 {{% /notice %}}
 
 ## Installation locale

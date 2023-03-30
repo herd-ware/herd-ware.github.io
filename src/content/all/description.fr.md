@@ -9,7 +9,7 @@ weight: 1
 
 ## Langage de description matérielle (HDL)
 
-Les langages de description matérielle sontutilisés pour décrire le fonctionnement des circuits électroniques numériques.
+Les langages de description matérielle sont utilisés pour décrire le fonctionnement des circuits électroniques numériques.
 Pour la conception des différents composants matériels, HerdWare se base principalement sur le langage [Chisel3](https://www.chisel-lang.org/).
 
 Chisel3 est un langage libre et ouvert initialement développé à l'Université de Berkeley et basé sur le langage Scala.
