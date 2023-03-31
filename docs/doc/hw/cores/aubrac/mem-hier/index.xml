@@ -32,7 +32,7 @@
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/hpm/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/hpm/index.html</guid>
-      <description>Récapitulatif    Name Description     alu Instructions de type ALU exécutées.   bru Instructions de type BRU exécutées.   cycle Cycles depuis le dernier reset global.   instret Instructions exécutées.   l1ihit Accès au L1I étant un hit.   l1ipftch Accès au L1I anticipé par le prefetcher.   l1imiss Accès au L1I étant un misse.   l1dhit Accès au L1D étant un hit.</description>
+      <description>Récapitulatif    Nom Description     alu Instructions de type ALU exécutées.   bru Instructions de type BRU exécutées.   cycle Cycles depuis le dernier reset global.   instret Instructions exécutées.   l1ihit Accès au L1I étant un hit.   l1ipftch Accès au L1I anticipé par le prefetcher.   l1imiss Accès au L1I étant un miss.   l1dhit Accès au L1D étant un hit.</description>
     </item>
   </channel>
 </rss>
