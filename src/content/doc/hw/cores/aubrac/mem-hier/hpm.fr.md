@@ -8,7 +8,7 @@ weight: 4
 
 ## Récapitulatif
 
-| Name                    |   Description                                  |
+| Nom                     |   Description                                  |
 |:------------------------|:-----------------------------------------------|
 | `alu`                   | Instructions de type ALU exécutées. |
 | `bru`                   | Instructions de type BRU exécutées. |
@@ -16,13 +16,13 @@ weight: 4
 | `instret`               | Instructions exécutées. |
 | `l1ihit`                | Accès au L1I étant un *hit*. |
 | `l1ipftch`              | Accès au L1I anticipé par le prefetcher. |
-| `l1imiss`               | Accès au L1I étant un *misse*. |
+| `l1imiss`               | Accès au L1I étant un *miss*. |
 | `l1dhit`                | Accès au L1D étant un *hit*. |
 | `l1dpftch`              | Accès au L1D anticipé par le prefetcher. |
-| `l1dmiss`               | Accès au L1D étant un *misse*. |
+| `l1dmiss`               | Accès au L1D étant un *miss*. |
 | `l2hit`                 | Accès au L2 étant un *hit*. |
 | `l2pftch`               | Accès au L2 anticipé par le prefetcher. |
-| `l2miss`                | Accès au L2 étant un *misse*. |
+| `l2miss`                | Accès au L2 étant un *miss*. |
 | `ld`                    | Instructions `load` exécutées. |
 | `mispred`               | Instructions de type BRU exécutées mais mal prédites. |
 | `rdcycle`               | Instructions `rdcycle` exécutées. |

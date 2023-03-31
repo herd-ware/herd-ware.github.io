@@ -26,9 +26,9 @@
      showgrid="true"
      showguides="true"
      inkscape:lockguides="false"
-     inkscape:zoom="0.80823909"
-     inkscape:cx="282.71337"
-     inkscape:cy="691.0084"
+     inkscape:zoom="0.57151134"
+     inkscape:cx="394.56785"
+     inkscape:cy="739.26792"
      inkscape:window-width="1848"
      inkscape:window-height="1016"
      inkscape:window-x="72"
@@ -3085,10 +3085,10 @@
     <rect
        style="fill:#b2b2b2;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-dasharray:none"
        id="rect8479-8-0-0"
-       width="21.166677"
-       height="10.583333"
+       width="21.166666"
+       height="13.229167"
        x="224.89583"
-       y="-177.27083"
+       y="-179.91667"
        transform="rotate(90)" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
@@ -3112,13 +3112,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
-       x="171.92413"
-       y="236.41051"
+       x="173.24706"
+       y="227.54167"
        id="text4022-7-3-56-5-4-89-6-5"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="171.92413"
-         y="236.41051"
+         x="173.24706"
+         y="227.54167"
          id="tspan12760-7-2-0-8-6-3-4">IO Core</tspan></text>
     <text
        xml:space="preserve"
@@ -3138,7 +3138,7 @@
        style="font-size:16px;line-height:1.25;font-family:'Gentium Book Basic';-inkscape-font-specification:'Gentium Book Basic';letter-spacing:1px;writing-mode:vertical-lr;text-orientation:upright;white-space:pre;shape-inside:url(#rect69899);display:inline"><tspan
          x="10"
          y="0"
-         id="tspan100624">A</tspan></text>
+         id="tspan5796">A</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -3613,5 +3613,59 @@
          x="132.29167"
          y="243.41667"
          id="tspan4024-1-5-86-4-4-2-0-0-7-5-3-9-2-1">GPR</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect1112"
+       width="10.583328"
+       height="2.6458333"
+       x="168.01042"
+       y="230.1875" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="173.30208"
+       y="232.20892"
+       id="text4022-7-3-56-5-4-89-6-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="173.30208"
+         y="232.20892"
+         id="tspan12760-7-2-0-8-6-3-6">HPM</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect1112-6"
+       width="10.583328"
+       height="2.6458282"
+       x="168.01042"
+       y="235.47917" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="173.32643"
+       y="237.54927"
+       id="text4022-7-3-56-5-4-89-6-3-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="173.32643"
+         y="237.54927"
+         id="tspan12760-7-2-0-8-6-3-6-8">Timers</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect1112-6-7"
+       width="10.583328"
+       height="2.6458232"
+       x="168.01042"
+       y="240.77083" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:1;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="173.34972"
+       y="242.85574"
+       id="text4022-7-3-56-5-4-89-6-3-1-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Work Sans';-inkscape-font-specification:'Work Sans';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="173.34972"
+         y="242.85574"
+         id="tspan12760-7-2-0-8-6-3-6-8-2">Scratch</tspan></text>
   </g>
 </svg>
