@@ -73,6 +73,6 @@ Si les versions 32 et 64 bits sont implémentées, seule la version 32 bits est 
 Un travail supplémentaire est nécessaire pour vérifier les instructions spécifiques à la version 64 bits, comme celles dédiées à la manipulation de mots de 32 bits.
 {{% /notice %}}
 
-## Table of contents
+## Sommaire
 
 {{% children sort="weight" depth=2 %}}

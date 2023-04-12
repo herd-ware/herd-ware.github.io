@@ -40,7 +40,7 @@ L'unité de gestion des champs matériels (**HFU**) est une unité d'exécution 
 Le module des **I/O** est utilisé pour les mécanismes addressables en mémoire spécifiques au processeur (*e.g.* les *timers* privilégiés).
 Enfin, **L1I**, **L1D** et **L2** sont respectivement le cache d'instruction de niveau 1, le cache de données de niveau 1 et le cache unifié de niveau 2.
 
-#### Support du jeu d'instructions
+## Support du jeu d'instructions
 
 Le processeur Aubrac est basé sur l'ISA RISC-V.
 Il supporte actuellement les bases 32 et 64 bits du jeu d'instructions.

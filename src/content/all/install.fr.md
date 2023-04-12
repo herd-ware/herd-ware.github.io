@@ -120,7 +120,8 @@ make
 ```
 {{% /tab %}}
 {{< /tabs >}}
-avec `RISC_DIR` le chemin vers le répertoire où sera installée la chaîne de compilation.
+avec `RISCV_DIR` une variable contenant le chemin vers le répertoire où sera installée la chaîne de compilation.
+Il est possible de remplacer `${RISCV_DIR}` directement par le chemin du répertoire.
 
 {{% notice style="note" %}}
 Il est possible d'effectuer une installation avec différentes options en suivant les [instructions officielles](https://github.com/riscv-collab/riscv-gnu-toolchain#readme).

@@ -46,7 +46,7 @@ A complete example can be performed using a program in the [isa-tests](/doc/sw/i
 cd sw/isa-tests
 make -f Makefile.riscv all
 cd ../..
-./sim/exe/HERD_P32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add-rom.hex --trigger 1000 --vcd sim/vcd/HERD_P32_CHAU1V000/example.vcd
+./sim/exe/HERD_P32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add.boot8.hex --trigger 1000 --vcd sim/vcd/HERD_P32_CHAU1V000/example.vcd
 ```
 
 Then, the execution of the *add* test of *isa-tests* can be viewed using GTKWave:

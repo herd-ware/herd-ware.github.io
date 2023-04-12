@@ -45,7 +45,7 @@ Voici un exemple de simulatio utilisant un program de test dans le répertoire [
 cd sw/isa-tests
 make -f Makefile.riscv all
 cd ../..
-./sim/exe/HERD_P32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add-rom.hex --trigger 1000 --vcd sim/vcd/HERD_P32_CHAU1V000/example.vcd
+./sim/exe/HERD_P32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add.boot8.hex --trigger 1000 --vcd sim/vcd/HERD_P32_CHAU1V000/example.vcd
 ```
 
 Ensuite, l'évolution de l'exécution du test *add*  peut être visualisée avec GTKWave:
