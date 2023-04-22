@@ -3,7 +3,7 @@
  * Created Date: 2023-02-28 01:34:25 pm
  * Author: Mathieu Escouteloup
  * -----
- * Last Modified: 2023-03-05 02:30:01 pm
+ * Last Modified: 2023-04-20 09:34:54 am
  * Modified By: Mathieu Escouteloup
  * -----
  * License: See LICENSE.md
@@ -136,4 +136,52 @@ li div {
 
 .bio-ref-info {
   font-weight: bold;
+}
+
+/*  ******************************
+              CONFERENCES
+    ******************************  */
+.conf-aa {
+  background-color:#f78695;
+}
+
+.conf-a {
+  background-color:#f5bcc4;
+}
+
+.conf-b {
+  background-color:#f5db93;
+}
+
+.conf-nat {
+  background-color:#93a0e0;
+}
+
+.conf-o {
+  background-color:#97c493;
+}
+
+.conf-leg-aa {
+  font-weight: bold;
+  color:#f78695;
+}
+
+.conf-leg-a {
+  font-weight: bold;
+  color:#f5bcc4;
+}
+
+.conf-leg-b {
+  font-weight: bold;
+  color:#f5db93;
+}
+
+.conf-leg-nat {
+  font-weight: bold;
+  color:#93a0e0;
+}
+
+.conf-leg-o {
+  font-weight: bold;
+  color:#97c493;
 }

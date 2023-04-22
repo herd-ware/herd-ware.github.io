@@ -46,7 +46,7 @@ A complete example can be performed using a program in the [isa-tests](/doc/sw/i
 cd sw/isa-tests
 make -f Makefile.riscv all
 cd ../..
-./sim/exe/HERD_P32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add-rom.hex --trigger 1000 --vcd sim/vcd/HERD_P32_CHAU1V000/example.vcd
+./sim/exe/HERD_P32_CHAU1V000 --boot sw/isa-tests/hex/riscv32-base-i-add.boot8.hex --trigger 1000 --vcd sim/vcd/HERD_P32_CHAU1V000/example.vcd
 ```
 
 Then, the execution of the *add* test of *isa-tests* can be viewed using GTKWave:
@@ -66,9 +66,9 @@ More information about the build process and the possibility to build specific h
 | --boot        | BOOT_HEX_FILE    | **Mandatory.** Initializes the content of the BOOT memory with the BOOT_HEX_FILE. BOOT_HEX_FILE must have hexadecimal values, with bytes separated by spaces. |
 | --rom         | ROM_HEX_FILE     | Initializes the content of the ROM memory with the ROM_HEX_FILE. ROM_HEX_FILE must have hexadecimal values, with bytes separated by spaces. |
 | --trigger     | N_TRIGGER        | Enables a trigger to stop the execution after N_TRIGGER cycles. |
-| --uart-cycle  | UART_CYCLE       | Enables the UART host emitter/receiver to write/read values through UART with UART_CYCLE cycles by bit. |
+| --uart-cycle  | UART_CYCLE       | Indicates for the UART host the number UART_CYCLE of cycles by bit. |
 | --uart-in     | UART_IN_FILE     | Enables the UART host emitter to read UART_IN_FILE word by word and send the value to the system. |
-| --uart-out    | UART_IN_FILE     | Displays each byte received from the UART. |
+| --uart-out    |                  | Displays each byte received from the UART. |
 | --vcd         | VCD_FILE         | Enables the generation of a *.vcd* file at the VCD_FILE path. This file describes the evolution of each signals during the execution. |
 | --etd         | ETD_FILE         | Enables the generation of a *.etd* file at the ETD_FILE path. This file indicates information for each completely executed information. |
 | --hpc         |                  | Display HPC values for each core. |

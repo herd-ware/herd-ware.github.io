@@ -11,7 +11,7 @@ weight: 1
 <div class="bio-row">
   <div class="bio-col-left" style="width: 60%">
     <h2 class="bio-h2"> Biography</h2>
-    I am post-doctoral researcher in computer security at the <a href="https://www.laas.fr/public/">LAAS-CNRS</a> in Toulouse, France.
+    I am post-doctoral researcher in computer security at the <a href="https://www.laas.fr/public/">LAAS-CNRS</a> of Toulouse in France.
     I work with <a href="https://gei.insa-toulouse.fr/en/the-department/people/vincent-migliore.html">Vincent Migliore</a> on the design of processors secure against side-channel attacks (power consumption and electromagnetic fields measurements).
     </br>
     Previously, I was graduated from the <a href="https://phelma.grenoble-inp.fr/">PHELMA - Grenoble INP</a> engineering school in electronics and microelectronics. 

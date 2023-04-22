@@ -1,8 +1,23 @@
 ---
 archetype: "home"
-title: "HerdWare"
+title: ""
 ---
 
+
+<div style ="font-size: 50px; text-align: center; font-family: 'Conthrax', sans-serif; font-weight: bold; color: #307ebe;">
+  Bienvenue sur le site de HerdWare !
+</div>
+
 {{% notice style="warning" %}}
-La version française du site n'est actuellement pas mise à jour. En attendant, merci de basculer sur la version anglaise.
+Le site est actuellement **en cours de développement**.
+Du nouveau contenu sera prochainement mis à disposition.
+N'hésitez pas à revenir le consulter!
 {{% /notice %}}
+
+<div style ="text-align: justify;">
+  Ce projet libre et ouvert vise à partager les développements matériels et logiciels issus de travaux de recherche.
+  Différentes pages d'explications et de documentation sont disponibles sur ce site.
+  Les codes correspondants sont également accessibles sur <a href="https://github.com/herd-ware">GitHub</a>.
+  Pour plus d'informations, n'hésitez pas à prendre <a href="/more/about/">contact</a>!
+</div>
+
