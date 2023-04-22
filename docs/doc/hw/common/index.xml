@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Common on HerdWare</title>
+    <title>Modules et interfaces communs on HerdWare</title>
     <link>https://herd-ware.github.io/doc/hw/common/index.html</link>
-    <description>Recent content in Common on HerdWare</description>
+    <description>Recent content in Modules et interfaces communs on HerdWare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/common/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -11,7 +11,7 @@
       <link>https://herd-ware.github.io/doc/hw/common/mb4s/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/common/mb4s/index.html</guid>
-      <description></description>
+      <description>Résumé MB4S (Memory Bus for Security) est le nom d&amp;rsquo;un protocole utilisé dans le projet HerdWare pour les bus mémoires. De base, le fonctionnement et les signaux utilisés étaient similaires à ceux d&amp;rsquo;un bus Wishbone standard: deux interfaces ready / valid (fonctionnement en poignée de main ou handshake en anglais) pour les signaux de contrôle et pour les signaux de données. Suite à différents travaux de recherche, le protocole a été modifié pour intégrer de nouvelles fonctionnalités, comme le supporte de contraintes de sécurité.</description>
     </item>
   </channel>
 </rss>

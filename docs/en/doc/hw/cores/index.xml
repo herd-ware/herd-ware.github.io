@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cores on HerdWare</title>
+    <link>https://herd-ware.github.io/en/doc/hw/cores/index.html</link>
+    <description>Recent content in Cores on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/en/doc/hw/cores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aubrac core</title>
+      <link>https://herd-ware.github.io/en/doc/hw/cores/aubrac/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/cores/aubrac/index.html</guid>
+      <description>Name origin Image&#39;s source.  Aubrac is a french breed of cows from the Plateau de l&amp;rsquo;Aubrac in the south-central of France. It is mainly raised for its meat, but also for its milk which can be used for the Laguiole cheese.
+  This page and the following ones describe the Aubrac core. It is single issue in-order CPU build around a classic pipeline and two levels of cache memories.</description>
+    </item>
+    <item>
+      <title>Salers core</title>
+      <link>https://herd-ware.github.io/en/doc/hw/cores/salers/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/cores/salers/index.html</guid>
+      <description>  Warning The Salers code the code is currently revised before being made available on GitHub. Do not hesitate to ask if you want information.
+   Name origin Image&#39;s source.  Salers is a french breed of cows from the Cantal in the south-central of France. It is raised for its meat but also its milk used in the Salers cheese.
+  Overview ISA support Table of contents  </description>
+    </item>
+    <item>
+      <title>Abondance core</title>
+      <link>https://herd-ware.github.io/en/doc/hw/cores/abondance/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/cores/abondance/index.html</guid>
+      <description>Name origin Image&#39;s source.  Abondance is a french breed of cows from the Haute-Savoie in the south-east of France. It is mainly raised for its milk used in multiple cheeses like the Reblochon, the Abondance and others.
+  This page and the following ones describe the Abondance core. It is a multiple issue out-of-order CPU with two levels of cache memories.
+Overview   
+Figure 1: Overview of the the Abondance core.</description>
+    </item>
+  </channel>
+</rss>

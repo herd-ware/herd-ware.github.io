@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front-end on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/cores/aubrac/front/index.html</link>
+    <description>Recent content in Front-end on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/front/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Étage PC</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/front/pc/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/front/pc/index.html</guid>
+      <description>Fonctionnement Chaque cycle, l&amp;rsquo;étage PC est responsable de calculer l&amp;rsquo;adresse de la prochaine instruction qui sera récupérée en mémoire (PC). Pour cela, un regstre interne à l&amp;rsquo;étage est incrémenté cycle par cycle pour parcourir les instructions les unes à la suite des autres.
+Cependant, l&amp;rsquo;ISA RISC-V intègre des instructions de gestion du flot de contrôle comme des saut (jal et jalr) ou branchements conditionnels (beq, bne, bge, bgeu, blt et bltu).</description>
+    </item>
+    <item>
+      <title>Étages IF{0-2}</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/front/if0_2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/front/if0_2/index.html</guid>
+      <description>Fonctionnement À partir de l&amp;rsquo;adresse reçue depuis l&amp;rsquo;étage PC, les étages IF{0-2} sont responsables des requêtes vers la mémoire.
+L&amp;rsquo;étage IF0 émet la requête vers la mémoire. L&amp;rsquo;étage IF1 est optionnel: il permet de rajouter un cycle supplémentaire entre IF0 et IF2. Cela peut s&amp;rsquo;avérer nécessaire une mémoire cache est implémentée, afin de synchroniser les différents éléments. Enfin, l&amp;rsquo;étage IF2 gère la réception des instructions depuis la mémoire. Cet étage est également optionnel, avec des registres de sorties pouvant être implémentés ou non.</description>
+    </item>
+    <item>
+      <title>Étage IF3</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/front/if3/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/front/if3/index.html</guid>
+      <description>Vue globale </description>
+    </item>
+    <item>
+      <title>Paramètres</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/front/params/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/front/params/index.html</guid>
+      <description>Vue globale Modèle Chisel object FrontConfigBase extends FrontConfig (  debug = true, // Boolean -&amp;gt; Active les signaux/registres de débuggage en simulation.  pcBoot = &amp;#34;00001000&amp;#34;, // String -&amp;gt; Adresse de démarrage  nHart = 1, // Int -&amp;gt; Nombre de harts   useField = false, // Int -&amp;gt; Active l&amp;#39;utilisation des champs matériels  nField = 1, // Int -&amp;gt; Nombre de champs matériels  nPart = 1, // Int -&amp;gt; Nombre de parties matérielless   nAddrBit = 32, // Int -&amp;gt; Taille d&amp;#39;une adresse (en bit)  nInstrByte = 4, // Int -&amp;gt; Taille maximale d&amp;#39;une instruction (en octet)  nFetchInstr = 2, // Int -&amp;gt; Nombres d&amp;#39;instructions récupérées simultanément   useIMemSeq = false, // Boolean -&amp;gt; Accès mémoire séquentiel  useIf1Stage = true, // Boolean -&amp;gt; Active le stage IF1  useIf2Stage = true, // Boolean -&amp;gt; Active le stage IF2  nFetchBufferDepth = 4, // Int -&amp;gt; Taille du fetch buffer  useNlp = true, // Boolean -&amp;gt; Utilise le NLP  useFastJal = true, // Boolean -&amp;gt; Active pré-décodage du jal   nBackPort = 1 // Int -&amp;gt; Nombres d&amp;#39;instructions lues simultanément ) </description>
+    </item>
+  </channel>
+</rss>

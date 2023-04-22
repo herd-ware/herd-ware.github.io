@@ -12,48 +12,49 @@
       <link>https://herd-ware.github.io/all/description/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/description/index.html</guid>
-      <description>Global information Hardware Description Language (HDL) Hardware description languages are used to describe the behavior of electronic circuits. For the design of its hardware components, HerdWare mainly use the Chisel3 language.
-Chisel3 is an open-source language, initially developped in University of Berkeley, and based on the Scala language. It allows to describe the behavior of digital designs, but also adds features for hardware generation. It can be compiled to generate synthesizable Verilog.</description>
+      <description>Informations globales Langage de description matérielle (HDL) Les langages de description matérielle sont utilisés pour décrire le fonctionnement des circuits électroniques numériques. Pour la conception des différents composants matériels, HerdWare se base principalement sur le langage Chisel3.
+Chisel3 est un langage libre et ouvert initialement développé à l&amp;rsquo;Université de Berkeley et basé sur le langage Scala. Il permet la description du fonctionnement de circuits numériques, mais aussi intègre des fonctionnalités pour la génération matérielle.</description>
     </item>
     <item>
       <title>Installation</title>
       <link>https://herd-ware.github.io/all/install/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/install/index.html</guid>
-      <description>Requirements  sbt Verilator GTKWave Vivado RISC-V Toolchain   Local install  Requirements HerdWare uses multiple tools to build, simulate or implement the different designs and softwares. Most of them are completely free and open-source.
-   Tools Hardware Software Simulation FPGA     sbt       Verilator       GtkWave       Vivado       RISC-V Toolchain        Table 1: Summary of the different needed tools for each specific task.</description>
+      <description>Sommaire  Sommaire Pré-requis  sbt Verilator GTKWave Vivado Chaîne de compilation RISC-V   Installation locale  Pré-requis HerdWare utilise plusieurs outils pour générer, simuler et implémenter les différents composants matériels et logiciels. La plupart d&amp;rsquo;entre eux sont cependant gratuits, libres et ouverts.
+   Outils Version Matériel Logiciel Simulation FPGA     sbt        Verilator v4.216       GtkWave        Vivado 2021.</description>
     </item>
     <item>
       <title>Simulation</title>
       <link>https://herd-ware.github.io/all/sim/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/sim/index.html</guid>
-      <description>Warning Before trying to simulate any design, make sure that you installed the different needed tools as explained in the installation page. Particularly, the following tools will be used here:
- sbt, Verilator, GTKWave, the RISC-V toolchain.    First simulation To start a simulation, open a terminal and go to the HerdWare directory previously installed.
- cd herd-ware A Makefile is available in the root project directory.</description>
+      <description>Avertissement Avant de simuler un composant matériel, assurez-vous que les différents outils nécessaires soient installés comme expliqué sur la page dédiée. Notamment, les outils suivants sont utilisés:
+ sbt, Verilator, GTKWave, la chaîne de compilation RISC-V.    Première simulation Pour effectuer une simulation, ouvrez un terminal et placez-vous dans le répertoire HerdWare installé précédemment:
+ cd herd-ware Un fichier Makefile est disponible dans le répertoire principal root.</description>
     </item>
     <item>
       <title>FPGA</title>
       <link>https://herd-ware.github.io/all/fpga/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/fpga/index.html</guid>
-      <description>  Warning Before trying to implement any design, make sure that you installed the different needed tools as explained in the installation page. Particularly, the following ones will be used here:
- sbt, Vivado, Verilator.    </description>
+      <description>  Avertissement Avant de simuler un composant matériel, assurez-vous que les différents outils nécessaires soient installés comme expliqué sur la page dédiée. Notamment, les outils suivants sont utilisés:
+ sbt, Vivado    </description>
     </item>
     <item>
-      <title>Custom design</title>
-      <link>https://herd-ware.github.io/all/custom/index.html</link>
+      <title>Génération matérielle configurable</title>
+      <link>https://herd-ware.github.io/all/hw/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
-      <guid>https://herd-ware.github.io/all/custom/index.html</guid>
-      <description>This page gives some information to help you in adapting HerdWare to your own needs. Here are described some use cases, but this list is non-exhaustive: do not hesitate to ask your question on the GitHub issue page.
-Generate a precise hardware module It is possible to generate the Verilog of any hardware module of the project. First, you have to locate in which file is placed the corresponding Chisel3 class.</description>
+      <guid>https://herd-ware.github.io/all/hw/index.html</guid>
+      <description>Avertissement Avant de générer un composant matériel, assurez-vous que les différents outils nécessaires soient installés comme expliqué sur la page dédiée. Notamment, les outils suivants sont utilisés:
+ sbt, Verilator    Générer un composant matériel Il est possible de générer le Verilog de chaque composant matériel du projet. Tout d&amp;rsquo;abord, vous devez localiser dans quelle librairie se trouve la class et l&amp;rsquo;object correspondants. Par exemple, le composant Example est situé dans le fichier example.</description>
     </item>
     <item>
-      <title>History</title>
+      <title>Historique</title>
       <link>https://herd-ware.github.io/all/history/index.html</link>
       <pubDate>Sat, 18 Feb 2023 10:52:46 +0100</pubDate>
       <guid>https://herd-ware.github.io/all/history/index.html</guid>
-      <description>v0.0.1 - 2023-03-30  Public documentation on GitHub. Public designs on GitHub:  Common hardware (v0.0.1), Aubrac core (v0.0.1), Abondance core (v0.0.1), Hay cache memory (v0.0.1), I/Os (v0.0.1), Cheese platform (v0.0.1), root directory (v0.0.1), isa-tests software (v0.0.1).    </description>
+      <description>Remarque Tous les tags des versions du projet disponibles sur GitHub ont le suffixe *-public. Cela permet de les distinguer des versions propres aux travaux de recherche en cours et pas encore publiés.
+  v0.0.2 - 2023-04-22  Ajout du processeur superscalaire Salers grandement basé sur les modules du processeur Aubrac. Ajout d&amp;rsquo;une librairie logicielle lib-herd pour la définition de fonctions et structures communes à l&amp;rsquo;ensemble des systèmes.</description>
     </item>
   </channel>
 </rss>

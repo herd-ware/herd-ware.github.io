@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prédiction de branchement on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/cores/aubrac/pred/index.html</link>
+    <description>Recent content in Prédiction de branchement on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/pred/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prédicteur de prochaine ligne (NLP)</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/pred/nlp/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/pred/nlp/index.html</guid>
+      <description>Vue globale  Figure 1: Vue globale du NLP.  À chaque cycle, le Front-End damande au NLP les informations sur le prochain PC. Si celui-ci correspond à des informations internes comme un saut ou un branchement pris, alors le NLP spécule sur le PC suivant.    objectif: simple implémentation, réponse dans le cycle
+L&amp;rsquo;ensemble du code est disponible dans un répertoire du projet Aubrac sur GitHub.
+Composants internes En interne, le NLP est basé sur plusieurs composants.</description>
+    </item>
+  </channel>
+</rss>

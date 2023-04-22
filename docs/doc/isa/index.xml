@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Instruction Set Architecture (ISA) on HerdWare</title>
+    <title>Architecture de jeu d&#39;instructions (ISA) on HerdWare</title>
     <link>https://herd-ware.github.io/doc/isa/index.html</link>
-    <description>Recent content in Instruction Set Architecture (ISA) on HerdWare</description>
+    <description>Recent content in Architecture de jeu d&#39;instructions (ISA) on HerdWare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/isa/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Context Hardware Architecture for Microarchitectural Protection (CHAMP)</title>
-      <link>https://herd-ware.github.io/doc/isa/champ/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://herd-ware.github.io/doc/isa/champ/index.html</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

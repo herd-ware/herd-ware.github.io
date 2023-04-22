@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.95.0">
+    <meta name="generator" content="Relearn 5.12.0+tip">
+    <meta name="description" content="">
+    <title>I/Os :: HerdWare</title>
+    <link href="https://herd-ware.github.io/doc/hw/io/index.html" rel="alternate" hreflang="x-default">
+    <link href="https://herd-ware.github.io/doc/hw/io/index.html" rel="alternate" hreflang="fr">
+    <link href="https://herd-ware.github.io/en/doc/hw/io/index.html" rel="alternate" hreflang="en">
+    <link href="/en/doc/hw/io/index.xml" rel="alternate" type="application/rss+xml" title="I/Os :: HerdWare">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1682149466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1682149466" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1682149466" rel="stylesheet">
+    <link href="/css/auto-complete.css?1682149466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1682149466" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1682149466" rel="stylesheet">
+    <link href="/css/fonts.css?1682149466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1682149466" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1682149466" rel="stylesheet">
+    <link href="/css/theme-color-light.css?1682149466" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1682149466" rel="stylesheet">
+    <link href="/css/print.css?1682149466" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1682149466" rel="stylesheet">
+    <script src="/js/url.js?1682149466"></script>
+    <script src="/js/variant.js?1682149466"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/en/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/herd-ware.github.io/';
+      window.variants && variants.init( [ 'color-light', 'color-dark' ] );
+    </script>
+
+   
+<link rel="stylesheet" href="/css/custom.css">
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/en/doc/hw/io/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+            <a class="nav nav-next topbar-link" href="/en/doc/hw/io/gpio/index.html" title="GPIO (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+            <a class="nav nav-prev topbar-link" href="/en/doc/hw/cores/abondance/index.html" title="Abondance core (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/en/index.html"><span itemprop="name">HerdWare</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/en/doc/index.html"><span itemprop="name">Documentation</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/en/doc/hw/index.html"><span itemprop="name">Hardware</span></a><meta itemprop="position" content="3"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">I/Os</span><meta itemprop="position" content="4"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="chapter">
+<div class="article-subheading"></div>
+<h1 id="ios">I/Os</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<img src="/fig/logo.png">
+
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="search-by">Search</label>
+          <input data-search-input id="search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1682149466" defer></script>
+        <script src="/js/lunr/lunr.min.js?1682149466" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1682149466" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1682149466" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1682149466" defer></script>
+        <script src="/js/search.js?1682149466" defer></script>
+      </div>
+      <div id="homelinks" class="default-animation">
+        <ul>
+          <li><a class="padding" href="/en/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics enlarge morespace collapsible-menu">
+          <li data-nav-id="/en/all/index.html" class=""><input type="checkbox" id="section-88df39dcf8824bdd821d8f9d3252bb6e" aria-controls="subsections-88df39dcf8824bdd821d8f9d3252bb6e"><label for="section-88df39dcf8824bdd821d8f9d3252bb6e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu HerdWare</span></label><a class="padding" href="/en/all/index.html">HerdWare</a><ul id="subsections-88df39dcf8824bdd821d8f9d3252bb6e" class="morespace collapsible-menu">
+          <li data-nav-id="/en/all/description/index.html" class=""><a class="padding" href="/en/all/description/index.html">Description</a></li>
+          <li data-nav-id="/en/all/install/index.html" class=""><a class="padding" href="/en/all/install/index.html">Installation</a></li>
+          <li data-nav-id="/en/all/sim/index.html" class=""><a class="padding" href="/en/all/sim/index.html">Simulation</a></li>
+          <li data-nav-id="/en/all/fpga/index.html" class=""><a class="padding" href="/en/all/fpga/index.html">FPGA</a></li>
+          <li data-nav-id="/en/all/hw/index.html" class=""><a class="padding" href="/en/all/hw/index.html">Custom design</a></li>
+          <li data-nav-id="/en/all/history/index.html" class=""><a class="padding" href="/en/all/history/index.html">History</a></li></ul></li>
+          <li data-nav-id="/en/doc/index.html" class="parent "><input type="checkbox" id="section-2a9c3279a940ec30764e84cf388503b0" aria-controls="subsections-2a9c3279a940ec30764e84cf388503b0" checked><label for="section-2a9c3279a940ec30764e84cf388503b0"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Documentation</span></label><a class="padding" href="/en/doc/index.html">Documentation</a><ul id="subsections-2a9c3279a940ec30764e84cf388503b0" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/isa/index.html" class=""><input type="checkbox" id="section-17bcd3b8d3471b4ba0af4fb07a4c326f" aria-controls="subsections-17bcd3b8d3471b4ba0af4fb07a4c326f"><label for="section-17bcd3b8d3471b4ba0af4fb07a4c326f"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu ISA</span></label><a class="padding" href="/en/doc/isa/index.html">ISA</a><ul id="subsections-17bcd3b8d3471b4ba0af4fb07a4c326f" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/isa/champ/index.html" class=""><a class="padding" href="/en/doc/isa/champ/index.html">CHAMP</a></li></ul></li>
+          <li data-nav-id="/en/doc/hw/index.html" class="parent "><input type="checkbox" id="section-d6220aa846a633e6cdba50b047103766" aria-controls="subsections-d6220aa846a633e6cdba50b047103766" checked><label for="section-d6220aa846a633e6cdba50b047103766"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Hardware</span></label><a class="padding" href="/en/doc/hw/index.html">Hardware</a><ul id="subsections-d6220aa846a633e6cdba50b047103766" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/hw/common/index.html" class=""><input type="checkbox" id="section-ef505300778a4972f6c565ea0c655639" aria-controls="subsections-ef505300778a4972f6c565ea0c655639"><label for="section-ef505300778a4972f6c565ea0c655639"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Common</span></label><a class="padding" href="/en/doc/hw/common/index.html">Common</a><ul id="subsections-ef505300778a4972f6c565ea0c655639" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/hw/common/mb4s/index.html" class=""><a class="padding" href="/en/doc/hw/common/mb4s/index.html">MB4S</a></li></ul></li>
+          <li data-nav-id="/en/doc/hw/cores/index.html" class=""><input type="checkbox" id="section-319edb737026d03fad82739914c705dc" aria-controls="subsections-319edb737026d03fad82739914c705dc"><label for="section-319edb737026d03fad82739914c705dc"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Cores</span></label><a class="padding" href="/en/doc/hw/cores/index.html">Cores</a><ul id="subsections-319edb737026d03fad82739914c705dc" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/hw/cores/aubrac/index.html" class=""><a class="padding" href="/en/doc/hw/cores/aubrac/index.html">Aubrac</a></li>
+          <li data-nav-id="/en/doc/hw/cores/salers/index.html" class=""><a class="padding" href="/en/doc/hw/cores/salers/index.html">Salers</a></li>
+          <li data-nav-id="/en/doc/hw/cores/abondance/index.html" class=""><a class="padding" href="/en/doc/hw/cores/abondance/index.html">Abondance</a></li></ul></li>
+          <li data-nav-id="/en/doc/hw/io/index.html" class="active parent "><input type="checkbox" id="section-520dc2b7aec9d8bdf698df389e225dc0" aria-controls="subsections-520dc2b7aec9d8bdf698df389e225dc0" checked><label for="section-520dc2b7aec9d8bdf698df389e225dc0"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu I/Os</span></label><a class="padding" href="/en/doc/hw/io/index.html">I/Os</a><ul id="subsections-520dc2b7aec9d8bdf698df389e225dc0" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/hw/io/gpio/index.html" class=""><a class="padding" href="/en/doc/hw/io/gpio/index.html">GPIO</a></li>
+          <li data-nav-id="/en/doc/hw/io/uart/index.html" class=""><a class="padding" href="/en/doc/hw/io/uart/index.html">UART</a></li>
+          <li data-nav-id="/en/doc/hw/io/spi/index.html" class=""><a class="padding" href="/en/doc/hw/io/spi/index.html">SPI</a></li>
+          <li data-nav-id="/en/doc/hw/io/i2c/index.html" class=""><a class="padding" href="/en/doc/hw/io/i2c/index.html">I2C</a></li>
+          <li data-nav-id="/en/doc/hw/io/ps2/index.html" class=""><a class="padding" href="/en/doc/hw/io/ps2/index.html">PS/2</a></li>
+          <li data-nav-id="/en/doc/hw/io/timers/index.html" class=""><a class="padding" href="/en/doc/hw/io/timers/index.html">Timers</a></li></ul></li>
+          <li data-nav-id="/en/doc/hw/mem/index.html" class=""><input type="checkbox" id="section-99fd063bf14408488a1be8d7ec28cfc0" aria-controls="subsections-99fd063bf14408488a1be8d7ec28cfc0"><label for="section-99fd063bf14408488a1be8d7ec28cfc0"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Memories</span></label><a class="padding" href="/en/doc/hw/mem/index.html">Memories</a><ul id="subsections-99fd063bf14408488a1be8d7ec28cfc0" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/hw/mem/hay/index.html" class=""><a class="padding" href="/en/doc/hw/mem/hay/index.html">Hay</a></li></ul></li>
+          <li data-nav-id="/en/doc/hw/pltf/index.html" class=""><input type="checkbox" id="section-67a0c9f1b171a49706ac96795bc27843" aria-controls="subsections-67a0c9f1b171a49706ac96795bc27843"><label for="section-67a0c9f1b171a49706ac96795bc27843"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Platforms</span></label><a class="padding" href="/en/doc/hw/pltf/index.html">Platforms</a><ul id="subsections-67a0c9f1b171a49706ac96795bc27843" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/hw/pltf/cheese/index.html" class=""><a class="padding" href="/en/doc/hw/pltf/cheese/index.html">Cheese</a></li></ul></li></ul></li>
+          <li data-nav-id="/en/doc/sw/index.html" class=""><input type="checkbox" id="section-c0a8fdaed206e3862e0f1d8605470e21" aria-controls="subsections-c0a8fdaed206e3862e0f1d8605470e21"><label for="section-c0a8fdaed206e3862e0f1d8605470e21"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Software</span></label><a class="padding" href="/en/doc/sw/index.html">Software</a><ul id="subsections-c0a8fdaed206e3862e0f1d8605470e21" class="morespace collapsible-menu">
+          <li data-nav-id="/en/doc/sw/isa-tests/index.html" class=""><a class="padding" href="/en/doc/sw/isa-tests/index.html">ISA tests</a></li></ul></li></ul></li>
+          <li data-nav-id="/en/refs/index.html" class=""><a class="padding" href="/en/refs/index.html">References</a></li>
+          <li data-nav-id="/en/gls/index.html" class=""><a class="padding" href="/en/gls/index.html">Glossary</a></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title padding">More</div>
+          <ul class="space">
+            <li><a class="padding" href="https://github.com/herd-ware"><i class='fab fa-fw fa-github'></i> GitHub</a></li>
+            <li><a class="padding" href="/en/more/publi/index.html"><i class='fas fa-fw fa-book'></i> Publications</a></li>
+            <li><a class="padding" href="/en/more/about/index.html"><i class='fas fa-fw fa-star'></i> About</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"></div>
+        <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter">
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showLangSwitch showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch showLangSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-language">Language</label>
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option lang="fr" id="fr" value="/doc/hw/io/index.html">Français</option>
+                    <option lang="en" id="en" value="/en/doc/hw/io/index.html" selected>English</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <div class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <label class="a11y-only" for="select-variant">Theme</label>
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="color-light" value="color-light" selected>Color Light</option>
+                    <option id="color-dark" value="color-dark">Color Dark</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </div>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><button class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</button></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1682149466" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1682149466" defer></script>
+    <script src="/js/theme.js?1682149466" defer></script>
+  </body>
+</html>

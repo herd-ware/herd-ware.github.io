@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I/Os on HerdWare</title>
+    <link>https://herd-ware.github.io/en/doc/hw/io/index.html</link>
+    <description>Recent content in I/Os on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/en/doc/hw/io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPIO</title>
+      <link>https://herd-ware.github.io/en/doc/hw/io/gpio/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/io/gpio/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UART</title>
+      <link>https://herd-ware.github.io/en/doc/hw/io/uart/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/io/uart/index.html</guid>
+      <description>Protocol Transmitter (Tx) Receiver (Rx) Top </description>
+    </item>
+    <item>
+      <title>SPI</title>
+      <link>https://herd-ware.github.io/en/doc/hw/io/spi/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/io/spi/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>I2C</title>
+      <link>https://herd-ware.github.io/en/doc/hw/io/i2c/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/io/i2c/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PS/2</title>
+      <link>https://herd-ware.github.io/en/doc/hw/io/ps2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/io/ps2/index.html</guid>
+      <description>Protocol Keyboard Top </description>
+    </item>
+    <item>
+      <title>Timers</title>
+      <link>https://herd-ware.github.io/en/doc/hw/io/timers/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/en/doc/hw/io/timers/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

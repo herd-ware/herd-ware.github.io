@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory Bus for Security (MB4S) on HerdWare</title>
+    <link>https://herd-ware.github.io/doc/hw/common/mb4s/index.html</link>
+    <description>Recent content in Memory Bus for Security (MB4S) on HerdWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/common/mb4s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protocole</title>
+      <link>https://herd-ware.github.io/doc/hw/common/mb4s/protocol/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/common/mb4s/protocol/index.html</guid>
+      <description>Principes de base  Figure 1: Protococole MB4S de base  Les préfixes i_* et o_* indiquent le sens des signaux (respectivement in et out) depuis le contrôleur maître.    Champ matériel Opération mémoire atomique (AMO) Version complète    Nom Optionnel Taille (en bits) Sens Description     req.ready  1 IN Prêt à recevoir (requête).   req.valid  1 OUT Prêt à envoyer (requête).</description>
+    </item>
+  </channel>
+</rss>

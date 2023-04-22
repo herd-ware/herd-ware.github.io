@@ -7,46 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/back/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ID stage</title>
+      <title>Étage ID</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/id/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/id/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>EX{0-2} stage</title>
+      <title>Étage EX{0-2}</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/ex/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/ex/index.html</guid>
-      <description>Execution Units Arithmetic and Logic Unit (ALU) Branch Unit (BRU) Multiplication and Division Unit (MULDIV) </description>
+      <description>Unités d&amp;rsquo;exécution Unité arithmétique et logique (ALU) Unité de branchement (BRU) Unité de multiplication et division (MULDIV) </description>
     </item>
     <item>
-      <title>MEM stage</title>
+      <title>Étage MEM</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/mem/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/mem/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>WB stage</title>
+      <title>Étage WB</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/wb/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/wb/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>GPR</title>
+      <title>Registres généraux (GPR)</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/gpr/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/gpr/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>CSR</title>
+      <title>Registres de Contrôle et de Statut (CSR)</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/back/csr/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/back/csr/index.html</guid>
-      <description></description>
+      <description>Récapitulatif    Nom Adresse (64/32 bits) Adresse (32 bits) Description     cycle 0xc00 0xc80 Cycles depuis le dernier reset global.   time 0xc01 0xc81 Cycles depuis le dernier reset global.   instret 0xc02 0xc82 Instructions exécutées.   hpmcounter3 0xc03 0xc83 Compteur de performances 3.   hpmcounter4 0xc04 0xc84 Compteur de performances 4.   hpmcounter5 0xc05 0xc85 Compteur de performances 5.   hpmcounter6 0xc06 0xc86 Compteur de performances 6.</description>
     </item>
   </channel>
 </rss>

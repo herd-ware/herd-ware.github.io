@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hardware on HerdWare</title>
+    <title>Matériel on HerdWare</title>
     <link>https://herd-ware.github.io/doc/hw/index.html</link>
-    <description>Recent content in Hardware on HerdWare</description>
+    <description>Recent content in Matériel on HerdWare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Common</title>
+      <title>Modules et interfaces communs</title>
       <link>https://herd-ware.github.io/doc/hw/common/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/common/index.html</guid>
-      <description></description>
+      <description>Sommaire Memory Bus for Security (MB4S) Protocole  Résumé Le projet common définit des éléments matériels de base et communs à d&amp;rsquo;autres projets. Il se sépare en différentes catégories:
+ bus: structures de certains bus et signaux communs, core: bus, signaux et modules utilisés par plusieurs implémentations de processeurs, field: bus, signaux, modules et paramètres de configuration pour la mise en place des champs matériels, gen: bus, signaux, modules et paramètres de configuration pour la mise en place de structures génériques (registres, FIFO etc.</description>
     </item>
     <item>
-      <title>Cores</title>
+      <title>Processeurs</title>
       <link>https://herd-ware.github.io/doc/hw/cores/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/index.html</guid>
-      <description>Table of contents Abondance core  Aubrac core Front-end Next-line predictor (NLP) Back-end Memory hierarchy Top Salers core   Summary    Core Abbreviation Version     Aubrac AU 0.0.1   Abondance AB 0.0.1   Salers SA     </description>
+      <description>Sommaire Aubrac Front-end Prédiction de branchement Back-end Hiérarchie mémoire Top Salers  Abondance Top  Résumé    Processeur Abréviation Version     Aubrac AU 0.0.1   Abondance AB 0.0.1   Salers SA     </description>
     </item>
     <item>
       <title>I/Os</title>
@@ -28,14 +29,14 @@
       <description></description>
     </item>
     <item>
-      <title>Memories</title>
+      <title>Mémoires</title>
       <link>https://herd-ware.github.io/doc/hw/mem/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/mem/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Platforms</title>
+      <title>Plateformes</title>
       <link>https://herd-ware.github.io/doc/hw/pltf/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/pltf/index.html</guid>

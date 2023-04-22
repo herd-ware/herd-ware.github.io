@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Memory hierarchy on HerdWare</title>
+    <title>Hiérarchie mémoire on HerdWare</title>
     <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/index.html</link>
-    <description>Recent content in Memory hierarchy on HerdWare</description>
+    <description>Recent content in Hiérarchie mémoire on HerdWare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Core Local Interrupt (CLINT)</title>
+      <title>Mémoires caches</title>
+      <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/caches/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/caches/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interruptions locales du processeur (CLINT)</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/clint/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/clint/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Restricted timers</title>
+      <title>Timers privilégiés</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/timers/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/timers/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Hardware Performances Monitor (HPM)</title>
+      <title>Moniteur des performances matérielles (HPM)</title>
       <link>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/hpm/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://herd-ware.github.io/doc/hw/cores/aubrac/mem-hier/hpm/index.html</guid>
-      <description>   Name Description     cycle Cycles since the last global reset.   time Cycles since the last global reset.   instret Retired instrictions    </description>
+      <description>Récapitulatif    Nom Description     alu Instructions de type ALU exécutées.   bru Instructions de type BRU exécutées.   cycle Cycles depuis le dernier reset global.   instret Instructions exécutées.   l1ihit Accès au L1I étant un hit.   l1ipftch Accès au L1I anticipé par le prefetcher.   l1imiss Accès au L1I étant un miss.   l1dhit Accès au L1D étant un hit.</description>
     </item>
   </channel>
 </rss>
