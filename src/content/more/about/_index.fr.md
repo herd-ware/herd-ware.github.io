@@ -8,7 +8,7 @@ weight: 100
 
 ## Contributeurs
 
-- [Mathieu Escouteloup](/fr/more/about/mathieu-escouteloup/)
+- [Mathieu Escouteloup](/more/about/mathieu-escouteloup/)
 
 ## Contact
 
